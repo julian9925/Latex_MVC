@@ -19,4 +19,7 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{根據深度來調整攝影機角度}{section.2.3}% 19
 \BOOKMARK [2][-]{subsection.2.3.4}{儲存虛擬照相機圖片}{section.2.3}% 20
 \BOOKMARK [1][-]{section.2.4}{虛擬影像定位}{chapter.2}% 21
-\BOOKMARK [0][-]{section*.13}{Bibliography}{}% 22
+\BOOKMARK [2][-]{subsection.2.4.1}{前置作業處理}{section.2.4}% 22
+\BOOKMARK [2][-]{subsection.2.4.2}{尋找特徵點並找出最多的特徵點投票選出位置}{section.2.4}% 23
+\BOOKMARK [2][-]{subsection.2.4.3}{利用虛擬照相機位置來定位}{section.2.4}% 24
+\BOOKMARK [0][-]{section*.13}{Bibliography}{}% 25

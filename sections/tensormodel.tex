@@ -239,15 +239,52 @@
 
 % 定位的決策
 %
+	在定位的流程中，利用讀取要定位的圖片，根據定位照片的特徵點比較找出最合適的虛擬影像，再參照虛擬影像所在的虛擬照相機的位置來定位。這樣可以節省利用三角定位(Triangulation)的時間，
+	根據之前不同的影像資料庫的建置方法，又增加許多以前傳統影像定位所定位不到的地方，關於這種覆蓋率的數據比較，在之後的實驗方法有詳細的數據可以佐證增加覆蓋率的證明。
 	
-
+	在定位的程序上，主要會分成3個階段：
+		\begin{itemize}
+			\item (1) 前置作業處理
+    		\item (2) 尋找特徵點並找出最多的特徵點投票選出位置
+    		\item (3) 利用虛擬照相機位置來定位
+		\end{itemize} 
+	
+	
+\subsection{前置作業處理}	
 %前置作業處理
-	一開始
 
-%尋找特徵點
+	在定位之前，先輸入待定位的照片以及虛擬照相機的位置。虛擬照相機的位置記錄檔格式包含每個虛擬相機的$X,Y,Z$座標以及每個攝影機的角度位置，當流程步驟做到特徵點定位時，就會需要參考到
+	虛擬相機的位置。
+		
+\subsection{尋找特徵點並找出最多的特徵點投票選出位置}	
+%尋找特徵點並找出最多的特徵點投票選出位置
 
+	在前置作業完成之後，接下來利用所有資料庫中的照片進行比對，並將每張照片所擁有找到與被定位照片相同的特徵點數量記錄下來。在這裡使
+	用的的方法為尺度不辨特徵向量(Scale Invariant Feature Transform)，簡稱為SIFT，我們利用SIFT找出與相片中相同的特徵點，
+	並將找出的特徵點的數量給記錄下來。關於SIFT的作法在之前已經有了相關的敘述，所以可以得知當存在虛擬相片中特徵點的數量越多，代表與
+	所要定位的照片有越密切的關係，當我們在所有照片中選出來擁有最多特徵點數量的虛擬照片時，我們參這個拍攝虛擬照片的相機的編號，根據
+	編號找出相機所在的位置，再利用這個虛擬相機的pose當作初步所在定位的定位位置。
+	
+%放一個特徵點比較圖
+%	\begin{figure*}
+%	\begin{center}
+%	  \includegraphics[width=1.0\textwidth]{figures/SIFT_Descriptor.jpg}
+%	  \caption{特徵點定位比較圖}
+%	  \label{fig:SIFT_Descriptor}
+%	\end{center}
+%	\end{figure*}	
+	
+	\begin{figure}
+    	\begin{center}
+    		\subfigure[根據虛擬相片找出的特徵點]{\label{fig:SIFT_Descriptor}\includegraphics[width=1\columnwidth]{figures/SIFT_Descriptor.jpg}}
+    		\subfigure[根據實際相片找出的特徵點]{\label{fig:SIFT_Descriptor2}\includegraphics[width=1\columnwidth]{figures/SIFT_Descriptor(2).jpg}}
+    	\end{center}
+    	\caption{特徵點比較差異圖 }
+    	\label{fig:SIFT_Descriptor}
+    \end{figure}
+	
+	特徵點的分布跟環境景物的分布有密切的關係，在我們的作法上藉由虛擬照片找到距離特徵景物遠的待定位照片，卻可以比一般的照片找出更多的特徵點。利用虛擬照片我們可以有效的找出更多的環境特
+	徵，在之後的定位上不管是覆蓋率或是精準度都有一定程度的提升。
 
-%找出最多的特徵點投票選出位置
-
-
+\subsection{利用虛擬照相機位置來定位}
 %利用虛擬照相機位置來定位
