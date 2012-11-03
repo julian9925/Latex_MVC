@@ -14,3 +14,7 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces 特徵點比較差異圖 }}{14}{figure.2.9}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {根據虛擬相片找出的特徵點}}}{14}{figure.2.9}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {根據實際相片找出的特徵點}}}{14}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 相機與特徵點的夾角示意圖}}{15}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces 定位點夾角與長度向量關係示意圖}}{16}{figure.2.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {角度$\alpha $對於夾角$\mathaccentV {vec}17E{z}$與$\mathaccentV {vec}17E{w}$示意圖}}}{16}{figure.2.11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度}}}{16}{figure.2.11}

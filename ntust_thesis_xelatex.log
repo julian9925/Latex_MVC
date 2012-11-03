@@ -1,19 +1,19 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.24)  26 OCT 2012 16:57
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2012.9.18)  29 OCT 2012 23:27
 entering extended mode
 **ntust_thesis_xelatex.tex
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.tex
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-(C:\Users\User\Dropbox\ntust_thesis\ntust_report.cls
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(H:\Dropbox\ntust_thesis\ntust_report.cls
 Document Class: ntust_report 2008/12/16 v0.3 Modified Standard LaTeX document c
 lass
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -683,12 +683,12 @@ Variant \keys_set_known:nxN already defined; not changing it on line 1408
 . Defining document command \xeCJKcaption with arg. spec. 'om' on line 2254.
 .................................................
 )
-(C:\Users\User\Dropbox\ntust_thesis\xCJKnumb.sty
+(H:\Dropbox\ntust_thesis\xCJKnumb.sty
 Package: xCJKnumb 2006/10/17 4.7.0
 \xCJK@q=\count131
 \xCJK@r=\count132
 )
-(C:\Users\User\Dropbox\ntust_thesis\settings/ntust_premable.tex
+(H:\Dropbox\ntust_thesis\settings/ntust_premable.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
@@ -845,7 +845,7 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/08/03 v6.82y Hypertext links for LaTeX
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
@@ -891,9 +891,6 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
@@ -902,36 +899,36 @@ Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 \Hy@pagecounter=\count161
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/08/03 v6.82y Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count162
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `debug' set `true' on input line 4080.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4080.
-Package hyperref Info: Hyper figures OFF on input line 4204.
-Package hyperref Info: Link nesting OFF on input line 4209.
-Package hyperref Info: Hyper index ON on input line 4212.
-Package hyperref Info: Plain pages OFF on input line 4219.
-Package hyperref Info: Backreferencing OFF on input line 4224.
+Package hyperref Info: Option `debug' set `true' on input line 3941.
+Package hyperref Info: Option `colorlinks' set `true' on input line 3941.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4442.
+Package hyperref Info: Bookmarks ON on input line 4300.
 \c@Hy@tempcnt=\count163
-LaTeX Info: Redefining \url on input line 4795.
+LaTeX Info: Redefining \url on input line 4653.
 \Fld@menulength=\count164
 \Field@Width=\dimen171
 \Fld@charsize=\dimen172
-Package hyperref Info: Hyper figures OFF on input line 5985.
-Package hyperref Info: Link nesting OFF on input line 5990.
-Package hyperref Info: Hyper index ON on input line 5993.
-Package hyperref Info: backreferencing OFF on input line 6000.
-Package hyperref Info: Link coloring ON on input line 6003.
-Package hyperref Info: Link coloring with OCG OFF on input line 6010.
-Package hyperref Info: PDF/A mode OFF on input line 6015.
-LaTeX Info: Redefining \ref on input line 6055.
-LaTeX Info: Redefining \pageref on input line 6059.
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring ON on input line 5791.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
 \Hy@abspage=\count165
 \c@Item=\count166
 \c@Hfootnote=\count167
@@ -940,10 +937,10 @@ LaTeX Info: Redefining \pageref on input line 6059.
 Package hyperref Message: Driver (autodetected): hxetex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hxetex.def"
-File: hxetex.def 2012/08/03 v6.82y Hyperref driver for XeTeX
+File: hxetex.def 2012/05/13 v6.82q Hyperref driver for XeTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2012/08/03 v6.82y Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2012/05/13 v6.82q Hyperref: PDF Unicode definition (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
@@ -966,7 +963,11 @@ tly
 )
 \Hy@SectionHShift=\skip66
 ))
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.aux)
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.aux
+
+LaTeX Warning: Label `fig:SIFT_Descriptor' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
@@ -983,8 +984,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 33.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 33.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 33.
@@ -1101,7 +1101,7 @@ Package color Info: Driver file: xetex.def on input line 130.
 Package hyperref Info: Link coloring ON on input line 33.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
@@ -1112,15 +1112,15 @@ LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
 
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.out)
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.out)
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.out)
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.out)
 \@outlinefile=\write3
 Package hyperref Info: Anchor `Doc-Start' on input line 33.
 
-(C:\Users\User\Dropbox\ntust_thesis\settings/ntust_definitions.tex)
-(C:\Users\User\Dropbox\ntust_thesis\settings/ntust_chnum_xelatex.tex)
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/ntust_frontpages.tex
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/my_names.tex)
+(H:\Dropbox\ntust_thesis\settings/ntust_definitions.tex)
+(H:\Dropbox\ntust_thesis\settings/ntust_chnum_xelatex.tex)
+(H:\Dropbox\ntust_thesis\frontpages/ntust_frontpages.tex
+(H:\Dropbox\ntust_thesis\frontpages/my_names.tex)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
@@ -1230,7 +1230,7 @@ Underfull \hbox (badness 10000) detected at line 391
 \EU1/標楷體(0)/m/n/14.4 摘 要
  []
 
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/my_cabstract.tex)
+(H:\Dropbox\ntust_thesis\frontpages/my_cabstract.tex)
 Package hyperref Info: Anchor `page.iii' on input line 405.
  [3
 
@@ -1247,7 +1247,7 @@ Overfull \hbox (0.67047pt too wide) detected at line 425
 \EU1/lmr/m/n/14.4 Student: 
  []
 
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/my_eabstract.tex)
+(H:\Dropbox\ntust_thesis\frontpages/my_eabstract.tex)
 Package hyperref Info: Anchor `page.iv' on input line 486.
  [4]
 Package hyperref Info: Anchor `chapter*.5' on input line 487.
@@ -1263,7 +1263,7 @@ Package hyperref Info: bookmark on input line 489:
 (hyperref)             reference {section*.6}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/my_ackn.tex)
+(H:\Dropbox\ntust_thesis\frontpages/my_ackn.tex)
 Package hyperref Info: Anchor `page.v' on input line 497.
  [5
 
@@ -1277,11 +1277,11 @@ Package hyperref Info: bookmark on input line 501:
 (hyperref)             type {toc}.
 Package hyperref Info: Anchor `chapter*.8' on input line 502.
 
-Overfull \hbox (33.81888pt too wide) detected at line 502
+Overfull \hbox (33.81886pt too wide) detected at line 502
 \EU1/lmr/bx/n/20.74 Table of Contents
  []
 
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.toc
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.toc
 Package hyperref Info: Reference (link) `section*.1' on input line 1.
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
@@ -1325,7 +1325,7 @@ Package hyperref Info: Anchor `page.vi' on input line 23.
 ]
 Package hyperref Info: Reference (link) `subsection.2.4.2' on input line 23.
 Package hyperref Info: Reference (link) `subsection.2.4.3' on input line 24.
-Package hyperref Info: Reference (link) `section*.13' on input line 25.
+Package hyperref Info: Reference (link) `section*.16' on input line 28.
 )
 \tf@toc=\write4
 Package hyperref Info: Anchor `page.vii' on input line 509.
@@ -1339,7 +1339,7 @@ Package hyperref Info: bookmark on input line 513:
 (hyperref)             type {toc}.
 Package hyperref Info: Anchor `chapter*.10' on input line 514.
 
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.lot)
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.lot)
 \tf@lot=\write5
 Package hyperref Info: Anchor `page.viii' on input line 521.
  [8
@@ -1358,7 +1358,7 @@ Overfull \hbox (0.90448pt too wide) detected at line 526
 \EU1/lmr/bx/n/20.74 List of Figures
  []
 
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.lof
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.lof
 Package hyperref Info: Reference (link) `figure.1.1' on input line 2.
 Package hyperref Info: Reference (link) `figure.2.1' on input line 4.
 Package hyperref Info: Reference (link) `figure.2.2' on input line 5.
@@ -1369,6 +1369,8 @@ Package hyperref Info: Reference (link) `figure.2.6' on input line 11.
 Package hyperref Info: Reference (link) `figure.2.7' on input line 12.
 Package hyperref Info: Reference (link) `figure.2.8' on input line 13.
 Package hyperref Info: Reference (link) `figure.2.9' on input line 14.
+Package hyperref Info: Reference (link) `figure.2.10' on input line 17.
+Package hyperref Info: Reference (link) `figure.2.11' on input line 18.
 )
 \tf@lof=\write6
 Package hyperref Info: Anchor `page.ix' on input line 536.
@@ -1385,7 +1387,7 @@ apping {\arabic {chapter}}\tocpostchaptername }相關研究}
 (hyperref)             reference {chapter.1}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-(C:\Users\User\Dropbox\ntust_thesis\sections/relative_work.tex
+(H:\Dropbox\ntust_thesis\sections/relative_work.tex
 Package hyperref Info: Anchor `section.1.1' on input line 4.
 Package hyperref Info: bookmark on input line 4:
 (hyperref)             thecounter {1.1}
@@ -1443,7 +1445,7 @@ apping {\arabic {chapter}}\tocpostchaptername }虛擬環境建置與定位方�
 (hyperref)             reference {chapter.2}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-(C:\Users\User\Dropbox\ntust_thesis\sections/tensormodel.tex
+(H:\Dropbox\ntust_thesis\sections/tensormodel.tex
 Package hyperref Info: Anchor `section.2.1' on input line 5.
 Package hyperref Info: bookmark on input line 5:
 (hyperref)             thecounter {2.1}
@@ -1674,62 +1676,141 @@ Package hyperref Info: bookmark on input line 259:
 (hyperref)             type {toc}.
 Package hyperref Info: Anchor `page.13' on input line 267.
  [13]
-Package hyperref Info: Anchor `subfigure.2.9.1' on input line 279.
+Package hyperref Info: Anchor `subfigure.2.9.1' on input line 270.
 File: figures/SIFT_Descriptor.jpg Graphic file (type QTm)
 
 <use  "figures/SIFT_Descriptor.jpg" >
-Package hyperref Info: Anchor `subfigure.2.9.2' on input line 280.
+Package hyperref Info: Anchor `subfigure.2.9.2' on input line 271.
 
 
-LaTeX Warning: File `figures/SIFT_Descriptor(2).jpg' not found on input line 28
-0.
+LaTeX Warning: File `figures/SIFT_Descriptor(2).jpg' not found on input line 27
+1.
 
 File: figures/SIFT_Descriptor(2).jpg Graphic file (type QTm)
 <use  "figures/SIFT_Descriptor(2).jpg" >
-Package hyperref Info: bookmark on input line 282:
+Package hyperref Info: bookmark on input line 273:
 (hyperref)             thecounter {2.9}
 (hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
 ame }{\ignorespaces 特徵點比較差異圖 }}
 (hyperref)             reference {figure.2.9}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.2.9' on input line 282.
-Package hyperref Info: bookmark on input line 284:
+Package hyperref Info: Anchor `figure.2.9' on input line 273.
+Package hyperref Info: bookmark on input line 275:
 (hyperref)             thecounter {()}
 (hyperref)             text {\sf@temp }
 (hyperref)             reference {figure.2.9}
 (hyperref)             toclevel {1}
 (hyperref)             type {lof}.
-Package hyperref Info: bookmark on input line 284:
+Package hyperref Info: bookmark on input line 275:
 (hyperref)             thecounter {()}
 (hyperref)             text {\sf@temp }
 (hyperref)             reference {figure.2.9}
 (hyperref)             toclevel {1}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `subsection.2.4.3' on input line 289.
-Package hyperref Info: bookmark on input line 289:
+Package hyperref Info: Anchor `subsection.2.4.3' on input line 280.
+Package hyperref Info: bookmark on input line 280:
 (hyperref)             thecounter {2.4.3}
 (hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
  {\csname thesubsection\endcsname }\fi 利用虛擬照相機位置來定位}
 (hyperref)             reference {subsection.2.4.3}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-)
-(C:\Users\User\Dropbox\ntust_thesis\backpages/ntust_backpages.tex
-Package hyperref Info: Anchor `page.14' on input line 6.
+Package hyperref Info: Anchor `page.14' on input line 284.
  [14]
-Package hyperref Info: Anchor `page.15' on input line 6.
- [15]
-Package hyperref Info: Anchor `section*.13' on input line 7.
+Package hyperref Info: Anchor `section*.13' on input line 290.
+Package hyperref Info: bookmark on input line 290:
+(hyperref)             thecounter {2.4.3.0}
+(hyperref)             text {\ifnum 3>\c@secnumdepth \else \protect \numberline
+ {\csname thesubsubsection\endcsname }\fi 找出特徵點對於鏡頭圖片的�
+��角}
+(hyperref)             reference {section*.13}
+(hyperref)             toclevel {3}
+(hyperref)             type {toc}.
+File: figures/Included_Angle.jpg Graphic file (type QTm)
+
+<use  "figures/Included_Angle.jpg" >
+Package hyperref Info: bookmark on input line 295:
+(hyperref)             thecounter {2.10}
+(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
+ame }{\ignorespaces 相機與特徵點的夾角示意圖}}
+(hyperref)             reference {figure.2.10}
+(hyperref)             toclevel {0}
+(hyperref)             type {lof}.
+Package hyperref Info: Anchor `figure.2.10' on input line 295.
+Package hyperref Info: Anchor `equation.2.4.4' on input line 308.
+Package hyperref Info: Anchor `equation.2.4.5' on input line 314.
+Package hyperref Info: Anchor `section*.14' on input line 316.
+Package hyperref Info: bookmark on input line 316:
+(hyperref)             thecounter {2.4.3.0}
+(hyperref)             text {\ifnum 3>\c@secnumdepth \else \protect \numberline
+ {\csname thesubsubsection\endcsname }\fi 利用夾角帶入餘弦定理 (Cosin
+e Law) 求出特徵點所距離鏡頭圖片位置的長度}
+(hyperref)             reference {section*.14}
+(hyperref)             toclevel {3}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `subfigure.2.11.1' on input line 320.
+
+
+LaTeX Warning: File `figures/Included_Angle(2).jpg' not found on input line 320
+.
+
+File: figures/Included_Angle(2).jpg Graphic file (type QTm)
+<use  "figures/Included_Angle(2).jpg" >
+Package hyperref Info: Anchor `subfigure.2.11.2' on input line 321.
+File: figures/Localization.jpg Graphic file (type QTm)
+ <use  "figures/Localization.jpg" >
+Package hyperref Info: bookmark on input line 323:
+(hyperref)             thecounter {2.11}
+(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
+ame }{\ignorespaces 定位點夾角與長度向量關係示意圖}}
+(hyperref)             reference {figure.2.11}
+(hyperref)             toclevel {0}
+(hyperref)             type {lof}.
+Package hyperref Info: Anchor `figure.2.11' on input line 323.
+Package hyperref Info: bookmark on input line 325:
+(hyperref)             thecounter {()}
+(hyperref)             text {\sf@temp }
+(hyperref)             reference {figure.2.11}
+(hyperref)             toclevel {1}
+(hyperref)             type {lof}.
+Package hyperref Info: bookmark on input line 325:
+(hyperref)             thecounter {()}
+(hyperref)             text {\sf@temp }
+(hyperref)             reference {figure.2.11}
+(hyperref)             toclevel {1}
+(hyperref)             type {lof}.
+Package hyperref Info: Anchor `page.15' on input line 325.
+
+[15]
+Package hyperref Info: Anchor `equation.2.4.6' on input line 338.
+Package hyperref Info: Anchor `section*.15' on input line 344.
+Package hyperref Info: bookmark on input line 344:
+(hyperref)             thecounter {2.4.3.0}
+(hyperref)             text {\ifnum 3>\c@secnumdepth \else \protect \numberline
+ {\csname thesubsubsection\endcsname }\fi 利用已知的長度求出待定位�
+��片的位置}
+(hyperref)             reference {section*.15}
+(hyperref)             toclevel {3}
+(hyperref)             type {toc}.
+Package hyperref Info: Anchor `equation.2.4.7' on input line 354.
+Package hyperref Info: Anchor `page.16' on input line 354.
+ [16]
+Package hyperref Info: Anchor `equation.2.4.8' on input line 365.
+Missing character: There is no ｘ in font cmmi12!
+) (H:\Dropbox\ntust_thesis\backpages/ntust_backpages.tex
+Package hyperref Info: Anchor `page.17' on input line 6.
+ [17]
+Package hyperref Info: Anchor `section*.16' on input line 7.
 Package hyperref Info: bookmark on input line 8:
 (hyperref)             thecounter {2}
 (hyperref)             text {\nameRef }
-(hyperref)             reference {section*.13}
+(hyperref)             reference {section*.16}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
 
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.bbl
-Package hyperref Info: Anchor `chapter*.14' on input line 2.
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.bbl
+Package hyperref Info: Anchor `chapter*.17' on input line 2.
 
 Underfull \hbox (badness 10000) detected at line 2
 \EU1/lmr/bx/n/20.74 Bibliography
@@ -1741,27 +1822,27 @@ Package hyperref Info: Anchor `Item.3' on input line 35.
 Package hyperref Info: Anchor `Item.4' on input line 39.
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package hyperref Info: Anchor `page.16' on input line 118.
- [16
+Package hyperref Info: Anchor `page.18' on input line 118.
+ [18
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
- (C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.aux)
+ (H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 118.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 118.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 24459 strings out of 429035
- 467376 string characters out of 3167909
- 483096 words of memory out of 3000000
- 27408 multiletter control sequences out of 15000+200000
- 11205 words of font info for 75 fonts, out of 3000000 for 9000
- 912 hyphenation exceptions out of 8191
- 46i,14n,46p,734b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 22766 strings out of 429156
+ 443048 string characters out of 3168943
+ 470720 words of memory out of 3000000
+ 25713 multiletter control sequences out of 15000+200000
+ 11221 words of font info for 77 fonts, out of 3000000 for 9000
+ 786 hyphenation exceptions out of 8191
+ 46i,15n,46p,734b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ntust_thesis_xelatex.pdf (26 pages).
+Output written on ntust_thesis_xelatex.pdf (28 pages).

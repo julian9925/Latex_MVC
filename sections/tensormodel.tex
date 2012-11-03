@@ -262,17 +262,8 @@
 	在前置作業完成之後，接下來利用所有資料庫中的照片進行比對，並將每張照片所擁有找到與被定位照片相同的特徵點數量記錄下來。在這裡使
 	用的的方法為尺度不辨特徵向量(Scale Invariant Feature Transform)，簡稱為SIFT，我們利用SIFT找出與相片中相同的特徵點，
 	並將找出的特徵點的數量給記錄下來。關於SIFT的作法在之前已經有了相關的敘述，所以可以得知當存在虛擬相片中特徵點的數量越多，代表與
-	所要定位的照片有越密切的關係，當我們在所有照片中選出來擁有最多特徵點數量的虛擬照片時，我們參這個拍攝虛擬照片的相機的編號，根據
+	所要定位的照片有越密切的關係，當我們在所有照片中選出來擁有最多特徵點數量的虛擬照片時，我們參考這個拍攝虛擬照片的相機的編號，根據
 	編號找出相機所在的位置，再利用這個虛擬相機的pose當作初步所在定位的定位位置。
-	
-%放一個特徵點比較圖
-%	\begin{figure*}
-%	\begin{center}
-%	  \includegraphics[width=1.0\textwidth]{figures/SIFT_Descriptor.jpg}
-%	  \caption{特徵點定位比較圖}
-%	  \label{fig:SIFT_Descriptor}
-%	\end{center}
-%	\end{figure*}	
 	
 	\begin{figure}
     	\begin{center}
@@ -288,3 +279,97 @@
 
 \subsection{利用虛擬照相機位置來定位}
 %利用虛擬照相機位置來定位
+
+	最後定位我們利用虛擬相機的位置來當作定位的參考位置，在利用虛擬相機的位置來定位與一般影像定位不同的地方在於三角定位的使用。在這裡我們先解釋一般三角定位的流程：
+	\begin{itemize}
+			\item (1) 找出特徵點對於鏡頭的夾角
+    		\item (2) 利用夾角帶入餘弦定理(Cosine Law)求出特徵點所距離鏡頭位置的長度
+    		\item (3) 利用已知的長度求出待定位圖片的位置
+	\end{itemize}
+	
+	\subsubsection{找出特徵點對於鏡頭圖片的夾角}
+	
+	\begin{figure*}
+	\begin{center}
+	  \includegraphics[width=1.0\textwidth]{figures/Included_Angle.jpg}
+	  \caption{相機與特徵點的夾角示意圖}
+	  \label{fig:Included Angle}
+	\end{center}
+	\end{figure*}
+	
+	在 fig:2-10 當中我們要先求得$\vec{z}$與$\vec{w}$的長度，當我們知道$\vec{U_1}$與$\vec{U_2}$之後，帶入下列求解的算式：
+	\begin{align}
+		\left\{
+		\begin{array}{cccc}
+		\vec{z} = (u_{1x} - c_x)\vec{u} + (v_{1y} - c_y)\vec{v} + \vec{f}d\\
+		\vec{w} = (u_{2x} - c_x)\vec{u} + (v_{2y} - c_y)\vec{v} + \vec{f}d\\
+		\end{array}
+		\right.
+	\end{align}
+	在這之中，f 為焦距向量，d 為深度。	
+	
+	我們得到$|z|$與$|w|$的長度，在 fig:2-11 我們知道$|u|$的長度之後，再帶入餘弦定理求得角度$\alpha$的夾角：
+	\begin{align}
+		|\vec{u}|^2 = |\vec{z}|^2 + |\vec{w}|^2 - 2zwcos\alpha
+	\end{align}	
+	
+	\subsubsection{利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度}
+	
+	\begin{figure}
+    \begin{center}
+    		\subfigure[角度$\alpha$對於夾角$\vec{z}$與$\vec{w}$示意圖]{\label{fig:Included Angle(2)}\includegraphics[width=0.3\textwidth]{figures/Included_Angle(2).jpg}}
+    		\subfigure[利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度]{\label{fig:Localization}\includegraphics[width=0.6\textwidth]{figures/Localization.jpg}}
+    \end{center}
+    \caption{定位點夾角與長度向量關係示意圖}
+    \label{fig:Localization Relationship}
+    \end{figure}
+
+
+	由 fig:2-11 我們可以知道$\varphi _{oi}$與$\varphi _{ij}$也知道$|V_{oi}|$, $|V_{oj}|$與$|V_{ij}|$的長度，藉由餘弦定理可以推出下列算式：
+	
+	\begin{align}
+		\left\{
+		\begin{array}{cccc}
+		|V_{oi}|^2 = |Z_o^{(r)}|^2 + |Z_i^{(r)}|^2 - 2|Z_o^{(r)}||Z_i^{(r)}|\varphi _{io}\\
+		|V_{oj}|^2 = |Z_o^{(r)}|^2 + |Z_j^{(r)}|^2 - 2|Z_o^{(r)}||Z_j^{(r)}|\varphi _{jo}\\
+		|V_{ij}|^2 = |Z_i^{(r)}|^2 + |Z_j^{(r)}|^2 - 2|Z_j^{(r)}||Z_j^{(r)}|\varphi _{ij}\\
+		\end{array}
+		\right.
+	\end{align}	
+	
+	其中(r)代表從定位點 P 所觀測出的位置與視角。	
+	
+	當我們解出$|Z_o|$,$|Z_i|$以及$|Z_j|$之後，根據圖上的座標表示法，我們最後帶入式子(2.7)中求解
+	
+	\subsubsection{利用已知的長度求出待定位圖片的位置}
+	
+	\begin{align}
+		\left\{
+		\begin{array}{cccc}
+		|Z_o^{(r)}| = (x_o - p_x)^2 + (y_o - p_y)^2\\
+		|Z_i^{(r)}| = (x_i - p_x)^2 + (y_i - p_y)^2\\
+		|Z_j^{(r)}| = (x_j - p_x)^2 + (y_j - p_y)^2\\
+		\end{array}
+		\right.
+	\end{align}	
+	
+	我們利用上述式子整理可得出下列式子：
+	
+	\begin{align}
+		\left\{
+		\begin{array}{cccc}
+		|Z_o^{(r)}|^2 - |Z_i^{(r)}|^2 = X_o^2 - X_i^2 + 2p_x(x_i - x_o) + y_o^2 - y_i^2 + 2p_y(y_i-y_o)\\
+		|Z_o^{(r)}|^2 - |Z_j^{(r)}|^2 = X_o^2 - X_j^2 + 2p_x(x_j - x_o) + y_o^2 - y_j^2 + 2p_y(y_j-y_o)\\
+		\end{array}
+		\right.
+	\end{align}	
+	
+	在依照(2.7)式子兩兩相減，可得出六項聯立方程組，(2.8)為其中的兩項，在式子當中我們求出$p_x$及$p_y$則為我們想要定位之座標。
+	
+    上面為傳統2D平面影像根據特徵點的定位流程，我們根據虛擬影像也可以與待定位照片根據特徵點定位。但是虛擬影像為3D投影回2D的平面影像，在座標空間表示
+    會面臨到投影所產生的誤差，再者點雲所見出的環境深度因為Kinect深度攝影機本身偵測的深度也會產生誤差，由虛擬影像跟平面影像特徵點利用式子求解比平面
+    影像定位求解來的誤差更大。根據這點，我們利用虛擬相機的位置來當參考的定位點，當我們找出最多特徵點的虛擬照片後，我們還是利用虛擬影像作三角定位，當
+    所求的定位點與虛擬相機絕對距離超過７０公分，我們就利用虛擬相機位置做最後定位點，否則則三角定位的位置則為最後定位完成的結果。
+    
+    會這樣做的理由基於我們每個相機的ｘ軸距離與y軸距離是50公分，為均勻分布，所以假定最大的平均定位誤差就為$\sqrt{ｘ^2+y^2}=70.7$公分，當定位超過
+    這個平均誤差距離，我們最後還是捨棄三角定位的結果，改以最多特徵點的虛擬相機位置為最終的成果。
