@@ -32,12 +32,4 @@ H.~Du, P.~Henry, X.~Ren, M.~Cheng, D.~B. Goldman, S.~M. Seitz, and D.~Fox,
   camera},'' \emph{Proceedings of the 13th international conference on
   Ubiquitous computing - UbiComp '11}, p.~75, 2011.
 
-\bibitem{milborrow2008locating}
-S.~Milborrow and F.~Nicolls, ``Locating facial features with an extended active
-  shape model,'' \emph{Computer Vision--ECCV 2008}, pp. 504--513, 2008.
-
-\bibitem{viola2004robust}
-P.~Viola and M.~Jones, ``Robust real-time face detection,'' \emph{International
-  journal of computer vision}, vol.~57, no.~2, pp. 137--154, 2004.
-
 \end{thebibliography}

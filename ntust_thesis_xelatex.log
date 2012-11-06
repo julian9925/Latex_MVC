@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2012.9.18)  29 OCT 2012 23:27
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2012.9.18)  5 NOV 2012 23:46
 entering extended mode
 **ntust_thesis_xelatex.tex
 (H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.tex
@@ -1387,7 +1387,7 @@ apping {\arabic {chapter}}\tocpostchaptername }相關研究}
 (hyperref)             reference {chapter.1}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-(H:\Dropbox\ntust_thesis\sections/relative_work.tex
+(H:\Dropbox\ntust_thesis\sections/related_work.tex
 Package hyperref Info: Anchor `section.1.1' on input line 4.
 Package hyperref Info: bookmark on input line 4:
 (hyperref)             thecounter {1.1}
@@ -1445,7 +1445,7 @@ apping {\arabic {chapter}}\tocpostchaptername }虛擬環境建置與定位方�
 (hyperref)             reference {chapter.2}
 (hyperref)             toclevel {0}
 (hyperref)             type {toc}.
-(H:\Dropbox\ntust_thesis\sections/tensormodel.tex
+(H:\Dropbox\ntust_thesis\sections/methodlogy.tex
 Package hyperref Info: Anchor `section.2.1' on input line 5.
 Package hyperref Info: bookmark on input line 5:
 (hyperref)             thecounter {2.1}
@@ -1818,8 +1818,6 @@ Underfull \hbox (badness 10000) detected at line 2
 
 Package hyperref Info: Anchor `Item.1' on input line 24.
 Package hyperref Info: Anchor `Item.2' on input line 29.
-Package hyperref Info: Anchor `Item.3' on input line 35.
-Package hyperref Info: Anchor `Item.4' on input line 39.
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
 Package hyperref Info: Anchor `page.18' on input line 118.
@@ -1837,10 +1835,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 22766 strings out of 429156
- 443048 string characters out of 3168943
- 470720 words of memory out of 3000000
- 25713 multiletter control sequences out of 15000+200000
+ 22764 strings out of 429156
+ 443002 string characters out of 3168943
+ 470714 words of memory out of 3000000
+ 25711 multiletter control sequences out of 15000+200000
  11221 words of font info for 77 fonts, out of 3000000 for 9000
  786 hyphenation exceptions out of 8191
  46i,15n,46p,734b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
