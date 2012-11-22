@@ -1,8 +1,11 @@
 %\section{Related Work}\label{Related}
-\section{Simulated Localization And Mapping} % (fold)
+  
+  這個章節描述之前關於室內定位及 3D 虛擬環境建立的方法介紹，
 
+\section{Simultaneous Localization And Mapping 方法描述介紹}
 
 \section{尺度不變特徵向量(Scale Invariant Feature Transform)}
+
 %SIFT 特徵點描述方法
 	尺度不變特徵向量(SIFT) 一開始由 lowe \cite{Lowe2004} 所提出，目的是尋找兩張圖片中的相似特徵向量來比對兩張圖片的相對關係，主要分成四個階段：
 \begin{itemize}
@@ -39,8 +42,8 @@
 \end{center}
 \end{figure*}  
 
-    再利用每組影像相鄰的高絲模糊影像進行高斯差分(Difference-Of-Gaussian)，目的用於在集合內4組高斯差分影像中找出極值
-    ，式子如(1.3)所示：
+  再利用每組影像相鄰的高絲模糊影像進行高斯差分(Difference-Of-Gaussian)，目的用於在集合內4組高斯差分影像中找出極值
+  ，式子如(1.3)所示：
     
 \begin{align}
   D(x,y,\sigma) = L(x,y,k\sigma)-L(x,y,\sigma)
@@ -98,6 +101,8 @@
      每個特徵點有 16 個方位的直方圖，每個方位直方圖內有 8 個梯度強度值，因此共有$ 16 x 8 = 128$個特徵值，
      這些特徵點則為我們所需要的描述向量。
 
+\section{室內定位方法簡介}
 
+%放一些有關SIFT的相關應用
 
 

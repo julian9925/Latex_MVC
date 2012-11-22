@@ -6,7 +6,5 @@
 \contentsline {chapter}{Table of Contents}{vi}{section*.7}
 \contentsline {chapter}{List of Tables}{vii}{section*.9}
 \contentsline {chapter}{List of Figures}{viii}{section*.11}
-\contentsline {chapter}{\numberline {1}相關研究}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Simulated Localization And Mapping}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}尺度不變特徵向量(Scale Invariant Feature Transform)}{1}{section.1.2}
-\contentsline {chapter}{Bibliography}{5}{section*.13}
+\contentsline {chapter}{\numberline {1}實驗設計研究}{1}{chapter.1}
+\contentsline {chapter}{Bibliography}{2}{section*.13}
