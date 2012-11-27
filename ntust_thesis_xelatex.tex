@@ -16,6 +16,7 @@
 \usepackage{fontspec}   %加這個就可以設定字體 `
 \usepackage[BoldFont,SlantFont]{xeCJK}       %讓中英文字體分開設置，並使用模擬粗體與斜體
 \usepackage{xCJKnumb}    %使章節可以中文計數 
+\usepackage{dcolumn,booktabs}
 
 %\setmainfont{Century}            %設定主要字型，也就是英文字型 
 %\setCJKmainfont{DFKai-SB}     %設定中文字型 (windows:預設為標楷體)
@@ -32,7 +33,7 @@
 
 \begin{document}
 
-% 針對 latex + dvipdfmx 工作流程在 hyperref 套件的影響下，圖檔的辨識力退化
+% 針對 latex + dvipdfmx 工作流程在 hyperref 套件的影響下，圖檔的
 % 所作的權宜措施。可能是因為 TeXLive2007 hyperref 裏的
 % 客製 graphicx / dvipdfmx 的設定檔不夠新
 %\ifx\myworkflow\mydvipdfmxflow
@@ -42,8 +43,7 @@
 %	\DeclareGraphicsRule{.jpg}{eps}{.bb}{}
 %\fi
 
-%%%%% 中文縮排設定
-\makeatletter
+%%%%% 中文縮排設定\makeatletter
 \let\@afterindentfalse\@afterindenttrue
 \@afterindenttrue
 \makeatother
@@ -90,14 +90,21 @@
 %®\chapter{Introduction}
 %\input{sections/introduction.tex}
 
+\chapter{相關研究}
+\label{Related}
+\input{sections/related_work.tex}
 
-\chapter{實驗設計研究}
+\chapter{虛擬環境建置與定位方法描述}
+\label{app}
+\input{sections/methodology.tex}
+
+\chapter{定位實驗法法比較分析}
 \label{exp}
 \input{sections/experiment.tex}
 
-%\chapter{Conclusions and Future Work}
-%\label{sum}
-%\input{sections/conclusion.tex}
+% \chapter{Conclusions and Future Work}
+% \label{sum}
+% \input{sections/conclusion.tex}
 
 % back pages 後頁
 % 包括參考文獻、附錄、自傳 
