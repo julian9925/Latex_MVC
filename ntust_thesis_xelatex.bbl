@@ -21,11 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{Lowe2004}
-D.~G. Lowe, ``{Distinctive Image Features from Scale-Invariant Keypoints},''
-  \emph{International Journal of Computer Vision}, vol.~60, no.~2, pp. 91--110,
-  Nov. 2004.
-
 \bibitem{Du2011}
 H.~Du, P.~Henry, X.~Ren, M.~Cheng, D.~B. Goldman, S.~M. Seitz, and D.~Fox,
   ``{Interactive 3D modeling of indoor environments with a consumer depth
