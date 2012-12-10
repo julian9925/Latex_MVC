@@ -6,21 +6,23 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {使用攝影機的Global Pose求得$\qopname \relax o{tan}\theta $}}}{5}{figure.1.4}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {坐標軸角度差異}}}{5}{figure.1.4}
 \contentsline {figure}{\numberline {1.5}{\ignorespaces 在點雲上設置虛擬照相機位置}}{6}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces 攝影機的攝影近裁面(near)與遠裁面(far)表示}}{7}{figure.1.6}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces 根據物體距離鏡頭遠近來調整方位}}{8}{figure.1.7}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces 內差法補強前後的差異圖}}{9}{figure.1.8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces 特徵點比較差異圖 }}{11}{figure.1.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {根據虛擬相片找出的特徵點}}}{11}{figure.1.9}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {根據實際相片找出的特徵點}}}{11}{figure.1.9}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces 相機與特徵點的夾角示意圖}}{12}{figure.1.10}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces 定位點夾角與長度向量關係示意圖}}{13}{figure.1.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {角度$\alpha $對於夾角$\mathaccentV {vec}17E{z}$與$\mathaccentV {vec}17E{w}$示意圖}}}{13}{figure.1.11}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度}}}{13}{figure.1.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {格狀分布虛擬相機位置}}}{6}{figure.1.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {均勻分布虛擬相機位置}}}{6}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces 攝影機的攝影近裁面(near)與遠裁面(far)表示}}{9}{figure.1.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces 根據物體距離鏡頭遠近來調整方位}}{9}{figure.1.7}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces 內差法補強前後的差異圖}}{11}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces 特徵點比較差異圖 }}{13}{figure.1.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {根據虛擬相片找出的特徵點}}}{13}{figure.1.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {根據實際相片找出的特徵點}}}{13}{figure.1.9}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces 相機與特徵點的夾角示意圖}}{14}{figure.1.10}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces 定位點夾角與長度向量關係示意圖}}{15}{figure.1.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {角度$\alpha $對於夾角$\mathaccentV {vec}17E{z}$與$\mathaccentV {vec}17E{w}$示意圖}}}{15}{figure.1.11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度}}}{15}{figure.1.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 依照同心圓的覆蓋算出每個半徑內的每張圖的特徵點平均數，左.控制環境 1 右.控制環境 2}}{17}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 特徵點數量趨勢圖}}{17}{figure.2.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {控制環境 1.特徵點平均數量比較}}}{17}{figure.2.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {控制環境 2.特徵點平均數量比較}}}{17}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 間距定位平均誤差趨勢圖}}{18}{figure.2.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {控制環境 1.間距定位平均誤差比較}}}{18}{figure.2.3}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {控制環境 2.間距定位平均誤差比較}}}{18}{figure.2.3}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 依照同心圓的覆蓋算出每個半徑內的每張圖的特徵點平均數，左.控制環境 1 右.控制環境 2}}{19}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 特徵點數量趨勢圖}}{19}{figure.2.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {控制環境 1.特徵點平均數量比較}}}{19}{figure.2.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {控制環境 2.特徵點平均數量比較}}}{19}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 間距定位平均誤差趨勢圖}}{20}{figure.2.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {控制環境 1.間距定位平均誤差比較}}}{20}{figure.2.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {控制環境 2.間距定位平均誤差比較}}}{20}{figure.2.3}

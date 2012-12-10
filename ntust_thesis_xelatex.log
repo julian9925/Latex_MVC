@@ -1,19 +1,19 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.24)  29 NOV 2012 17:52
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2012.9.18)  9 DEC 2012 22:41
 entering extended mode
 **ntust_thesis_xelatex.tex
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.tex
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-(C:\Users\User\Dropbox\ntust_thesis\ntust_report.cls
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(H:\Dropbox\ntust_thesis\ntust_report.cls
 Document Class: ntust_report 2008/12/16 v0.3 Modified Standard LaTeX document c
 lass
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -683,7 +683,7 @@ Variant \keys_set_known:nxN already defined; not changing it on line 1408
 . Defining document command \xeCJKcaption with arg. spec. 'om' on line 2254.
 .................................................
 )
-(C:\Users\User\Dropbox\ntust_thesis\xCJKnumb.sty
+(H:\Dropbox\ntust_thesis\xCJKnumb.sty
 Package: xCJKnumb 2006/10/17 4.7.0
 \xCJK@q=\count131
 \xCJK@r=\count132
@@ -719,7 +719,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count136
 \@thisrulewidth=\dimen161
 )
-(C:\Users\User\Dropbox\ntust_thesis\settings/ntust_premable.tex
+(H:\Dropbox\ntust_thesis\settings/ntust_premable.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
@@ -876,7 +876,7 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/08/03 v6.82y Hypertext links for LaTeX
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
@@ -922,9 +922,6 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
@@ -933,36 +930,36 @@ Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 \Hy@pagecounter=\count165
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/08/03 v6.82y Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count166
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `debug' set `true' on input line 4080.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4080.
-Package hyperref Info: Hyper figures OFF on input line 4204.
-Package hyperref Info: Link nesting OFF on input line 4209.
-Package hyperref Info: Hyper index ON on input line 4212.
-Package hyperref Info: Plain pages OFF on input line 4219.
-Package hyperref Info: Backreferencing OFF on input line 4224.
+Package hyperref Info: Option `debug' set `true' on input line 3941.
+Package hyperref Info: Option `colorlinks' set `true' on input line 3941.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4442.
+Package hyperref Info: Bookmarks ON on input line 4300.
 \c@Hy@tempcnt=\count167
-LaTeX Info: Redefining \url on input line 4795.
+LaTeX Info: Redefining \url on input line 4653.
 \Fld@menulength=\count168
 \Field@Width=\dimen186
 \Fld@charsize=\dimen187
-Package hyperref Info: Hyper figures OFF on input line 5985.
-Package hyperref Info: Link nesting OFF on input line 5990.
-Package hyperref Info: Hyper index ON on input line 5993.
-Package hyperref Info: backreferencing OFF on input line 6000.
-Package hyperref Info: Link coloring ON on input line 6003.
-Package hyperref Info: Link coloring with OCG OFF on input line 6010.
-Package hyperref Info: PDF/A mode OFF on input line 6015.
-LaTeX Info: Redefining \ref on input line 6055.
-LaTeX Info: Redefining \pageref on input line 6059.
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring ON on input line 5791.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
 \Hy@abspage=\count169
 \c@Item=\count170
 \c@Hfootnote=\count171
@@ -971,10 +968,10 @@ LaTeX Info: Redefining \pageref on input line 6059.
 Package hyperref Message: Driver (autodetected): hxetex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hxetex.def"
-File: hxetex.def 2012/08/03 v6.82y Hyperref driver for XeTeX
+File: hxetex.def 2012/05/13 v6.82q Hyperref driver for XeTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2012/08/03 v6.82y Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2012/05/13 v6.82q Hyperref: PDF Unicode definition (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
@@ -997,7 +994,7 @@ tly
 )
 \Hy@SectionHShift=\skip68
 ))
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.aux
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.aux
 
 LaTeX Warning: Label `fig:SIFT_Descriptor' multiply defined.
 
@@ -1135,7 +1132,7 @@ Package color Info: Driver file: xetex.def on input line 130.
 Package hyperref Info: Link coloring ON on input line 34.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
@@ -1146,15 +1143,15 @@ LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
 
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.out)
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.out)
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.out)
+(H:\Dropbox\ntust_thesis\ntust_thesis_xelatex.out)
 \@outlinefile=\write3
 Package hyperref Info: Anchor `Doc-Start' on input line 34.
 
-(C:\Users\User\Dropbox\ntust_thesis\settings/ntust_definitions.tex)
-(C:\Users\User\Dropbox\ntust_thesis\settings/ntust_chnum_xelatex.tex)
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/ntust_frontpages.tex
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/my_names.tex)
+(H:\Dropbox\ntust_thesis\settings/ntust_definitions.tex)
+(H:\Dropbox\ntust_thesis\settings/ntust_chnum_xelatex.tex)
+(H:\Dropbox\ntust_thesis\frontpages/ntust_frontpages.tex
+(H:\Dropbox\ntust_thesis\frontpages/my_names.tex)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
@@ -1266,7 +1263,7 @@ Underfull \hbox (badness 10000) detected at line 391
 \EU1/標楷體(0)/m/n/14.4 摘 要
  []
 
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/my_cabstract.tex)
+(H:\Dropbox\ntust_thesis\frontpages/my_cabstract.tex)
 Package hyperref Info: Anchor `page.iii' on input line 405.
  [3
 
@@ -1283,725 +1280,6 @@ Overfull \hbox (0.67047pt too wide) detected at line 425
 \EU1/lmr/m/n/14.4 Student: 
  []
 
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/my_eabstract.tex)
+(H:\Dropbox\ntust_thesis\frontpages/my_eabstract.tex)
 Package hyperref Info: Anchor `page.iv' on input line 486.
- [4]
-Package hyperref Info: Anchor `chapter*.5' on input line 487.
-
-Underfull \hbox (badness 10000) detected at line 487
-\EU1/標楷體(0)/bx/n/20.74 誌 謝
- []
-
-Package hyperref Info: Anchor `section*.6' on input line 488.
-Package hyperref Info: bookmark on input line 489:
-(hyperref)             thecounter {0}
-(hyperref)             text {\nameAckn }
-(hyperref)             reference {section*.6}
-(hyperref)             toclevel {0}
-(hyperref)             type {toc}.
-(C:\Users\User\Dropbox\ntust_thesis\frontpages/my_ackn.tex)
-Package hyperref Info: Anchor `page.v' on input line 497.
- [5
-
-]
-Package hyperref Info: Anchor `section*.7' on input line 500.
-Package hyperref Info: bookmark on input line 501:
-(hyperref)             thecounter {0}
-(hyperref)             text {\nameToc }
-(hyperref)             reference {section*.7}
-(hyperref)             toclevel {0}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `chapter*.8' on input line 502.
-
-Underfull \hbox (badness 10000) detected at line 502
-\EU1/標楷體(0)/bx/n/20.74 內 文 目 錄
- []
-
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.toc
-Package hyperref Info: Reference (link) `section*.1' on input line 1.
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 1.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Package hyperref Info: Reference (link) `section*.2' on input line 2.
-Package hyperref Info: Reference (link) `section*.3' on input line 3.
-Package hyperref Info: Reference (link) `section*.4' on input line 4.
-Package hyperref Info: Reference (link) `section*.6' on input line 5.
-Package hyperref Info: Reference (link) `section*.7' on input line 6.
-Package hyperref Info: Reference (link) `section*.9' on input line 7.
-Package hyperref Info: Reference (link) `section*.11' on input line 8.
-Package hyperref Info: Reference (link) `chapter.1' on input line 9.
-Package hyperref Info: Reference (link) `section.1.1' on input line 10.
-Package hyperref Info: Reference (link) `section.1.2' on input line 11.
-Package hyperref Info: Reference (link) `subsection.1.2.1' on input line 12.
-Package hyperref Info: Reference (link) `subsection.1.2.2' on input line 13.
-Package hyperref Info: Reference (link) `section.1.3' on input line 14.
-Package hyperref Info: Reference (link) `subsection.1.3.1' on input line 15.
-Package hyperref Info: Reference (link) `subsection.1.3.2' on input line 16.
-Package hyperref Info: Reference (link) `subsection.1.3.3' on input line 17.
-Package hyperref Info: Reference (link) `subsection.1.3.4' on input line 18.
-Package hyperref Info: Reference (link) `section.1.4' on input line 19.
-Package hyperref Info: Reference (link) `subsection.1.4.1' on input line 20.
-Package hyperref Info: Reference (link) `subsection.1.4.2' on input line 21.
-Package hyperref Info: Reference (link) `subsection.1.4.3' on input line 22.
-Package hyperref Info: Anchor `page.vi' on input line 26.
- [6
-
-]
-Package hyperref Info: Reference (link) `chapter.2' on input line 26.
-Package hyperref Info: Reference (link) `section.2.1' on input line 27.
-Package hyperref Info: Reference (link) `section.2.2' on input line 28.
-Package hyperref Info: Reference (link) `subsection.2.2.1' on input line 29.
-Package hyperref Info: Reference (link) `subsection.2.2.2' on input line 30.
-Package hyperref Info: Reference (link) `section*.19' on input line 34.
-)
-\tf@toc=\write4
-Package hyperref Info: Anchor `page.vii' on input line 509.
- [7]
-Package hyperref Info: Anchor `section*.9' on input line 512.
-Package hyperref Info: bookmark on input line 513:
-(hyperref)             thecounter {0}
-(hyperref)             text {\nameLot }
-(hyperref)             reference {section*.9}
-(hyperref)             toclevel {0}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `chapter*.10' on input line 514.
-
-Underfull \hbox (badness 10000) detected at line 514
-\EU1/標楷體(0)/bx/n/20.74 圖 目 錄
- []
-
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.lot
-Package hyperref Info: Reference (link) `table.2.1' on input line 3.
-)
-\tf@lot=\write5
-Package hyperref Info: Anchor `page.viii' on input line 521.
- [8
-
-]
-Package hyperref Info: Anchor `section*.11' on input line 524.
-Package hyperref Info: bookmark on input line 525:
-(hyperref)             thecounter {0}
-(hyperref)             text {\nameTof }
-(hyperref)             reference {section*.11}
-(hyperref)             toclevel {0}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `chapter*.12' on input line 526.
-
-Underfull \hbox (badness 10000) detected at line 526
-\EU1/標楷體(0)/bx/n/20.74 表 目 錄
- []
-
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.lof
-Package hyperref Info: Reference (link) `figure.1.1' on input line 2.
-Package hyperref Info: Reference (link) `figure.1.2' on input line 3.
-Package hyperref Info: Reference (link) `figure.1.3' on input line 4.
-Package hyperref Info: Reference (link) `figure.1.4' on input line 5.
-Package hyperref Info: Reference (link) `figure.1.5' on input line 8.
-Package hyperref Info: Reference (link) `figure.1.6' on input line 9.
-Package hyperref Info: Reference (link) `figure.1.7' on input line 10.
-Package hyperref Info: Reference (link) `figure.1.8' on input line 11.
-Package hyperref Info: Reference (link) `figure.1.9' on input line 12.
-Package hyperref Info: Reference (link) `figure.1.10' on input line 15.
-Package hyperref Info: Reference (link) `figure.1.11' on input line 16.
-Package hyperref Info: Reference (link) `figure.2.1' on input line 20.
-Package hyperref Info: Reference (link) `figure.2.2' on input line 21.
-Package hyperref Info: Reference (link) `figure.2.3' on input line 24.
-)
-\tf@lof=\write6
-Package hyperref Info: Anchor `page.ix' on input line 536.
- [9
-
-])
-Package hyperref Info: Anchor `chapter.1' on input line 97.
-
-Chapter 1.
-Package hyperref Info: bookmark on input line 97:
-(hyperref)             thecounter {1}
-(hyperref)             text {\tocprechaptername \protect \numberline {\counterm
-apping {\arabic {chapter}}\tocpostchaptername }虛擬環境建置與定位方�
-�描述}
-(hyperref)             reference {chapter.1}
-(hyperref)             toclevel {0}
-(hyperref)             type {toc}.
-(C:\Users\User\Dropbox\ntust_thesis\sections/methodology.tex
-Package hyperref Info: Anchor `section.1.1' on input line 5.
-Package hyperref Info: bookmark on input line 5:
-(hyperref)             thecounter {1.1}
-(hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
- {\csname thesection\endcsname }\fi 方法大綱}
-(hyperref)             reference {section.1.1}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.1.1' on input line 10.
-File: figures/Enire_System_Process.jpg Graphic file (type QTm)
-
-<use  "figures/Enire_System_Process.jpg" >
-Overfull \hbox (42.68173pt too wide) in paragraph at lines 16--17
- [] 
- []
-
-Package hyperref Info: bookmark on input line 17:
-(hyperref)             thecounter {1.1}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 3D點雲環境座內定位整體流程圖}}
-(hyperref)             reference {figure.1.1}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.1' on input line 17.
-Package hyperref Info: Anchor `section.1.2' on input line 25.
-Package hyperref Info: bookmark on input line 25:
-(hyperref)             thecounter {1.2}
-(hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
- {\csname thesection\endcsname }\fi 建立3D點雲環境}
-(hyperref)             reference {section.1.2}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.1' on input line 38.
-[1
-
-]
-Package hyperref Info: Anchor `page.2' on input line 38.
- [2]
-Package hyperref Info: Anchor `subsection.1.2.1' on input line 41.
-Package hyperref Info: bookmark on input line 41:
-(hyperref)             thecounter {1.2.1}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 虛擬環境的建置}
-(hyperref)             reference {subsection.1.2.1}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.3' on input line 59.
- [3]
-File: figures/3DPoint_Cloud_Map.jpg Graphic file (type QTm)
- <use  "figures/3DPoint_Cloud_Map.jpg" >
-Package hyperref Info: bookmark on input line 67:
-(hyperref)             thecounter {1.2}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 初步建置好的點雲環境}}
-(hyperref)             reference {figure.1.2}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.2' on input line 67.
-Package hyperref Info: Anchor `subsection.1.2.2' on input line 73.
-Package hyperref Info: bookmark on input line 73:
-(hyperref)             thecounter {1.2.2}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 點雲界限範圍制定及大小調整}
-
-(hyperref)             reference {subsection.1.2.2}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-File: figures/Bounding_Box.jpg Graphic file (type QTm)
-
-<use  "figures/Bounding_Box.jpg" >
-Package hyperref Info: bookmark on input line 87:
-(hyperref)             thecounter {1.3}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 將點雲給予界限範圍}}
-(hyperref)             reference {figure.1.3}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.3' on input line 87.
-Package hyperref Info: Anchor `page.4' on input line 96.
- [4]
-Package hyperref Info: Anchor `subfigure.1.4.1' on input line 103.
-File: figures/Global_Pose.jpg Graphic file (type QTm)
- <use  "figures/Global_Pose.jpg" >
-Package hyperref Info: Anchor `subfigure.1.4.2' on input line 104.
-File: figures/Rotation_Result.jpg Graphic file (type QTm)
-
-<use  "figures/Rotation_Result.jpg" >
-Package hyperref Info: bookmark on input line 106:
-(hyperref)             thecounter {1.4}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 調整點雲坐標軸角度方法 }}
-(hyperref)             reference {figure.1.4}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.4' on input line 106.
-Package hyperref Info: bookmark on input line 108:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.1.4}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: bookmark on input line 108:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.1.4}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `section.1.3' on input line 110.
-Package hyperref Info: bookmark on input line 110:
-(hyperref)             thecounter {1.3}
-(hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
- {\csname thesection\endcsname }\fi 虛擬照相機設置及影像資料庫建�
-��}
-(hyperref)             reference {section.1.3}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.5' on input line 117.
- [5]
-Package hyperref Info: Anchor `subsection.1.3.1' on input line 123.
-Package hyperref Info: bookmark on input line 123:
-(hyperref)             thecounter {1.3.1}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 均勻分布設置虛擬攝影機}
-(hyperref)             reference {subsection.1.3.1}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-File: figures/VirtualCameraPose.jpg Graphic file (type QTm)
-
-<use  "figures/VirtualCameraPose.jpg" >
-Package hyperref Info: bookmark on input line 134:
-(hyperref)             thecounter {1.5}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 在點雲上設置虛擬照相機位置}}
-(hyperref)             reference {figure.1.5}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.5' on input line 134.
-Package hyperref Info: Anchor `subsection.1.3.2' on input line 141.
-Package hyperref Info: bookmark on input line 141:
-(hyperref)             thecounter {1.3.2}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 虛擬照相機成像原理}
-(hyperref)             reference {subsection.1.3.2}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.6' on input line 147.
- [6]
-Package hyperref Info: Anchor `equation.1.3.1' on input line 157.
-File: figures/Camera_image.jpg Graphic file (type QTm)
- <use  "figures/Camera_image.jpg" >
-Package hyperref Info: bookmark on input line 167:
-(hyperref)             thecounter {1.6}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 攝影機的攝影近裁面(near)與遠裁面(far)表示}}
-(hyperref)             reference {figure.1.6}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.6' on input line 167.
-Package hyperref Info: Anchor `subsection.1.3.3' on input line 172.
-Package hyperref Info: bookmark on input line 172:
-(hyperref)             thecounter {1.3.3}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 根據深度來調整攝影機角度}
-(hyperref)             reference {subsection.1.3.3}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-File: figures/Depth_Filter.jpg Graphic file (type QTm)
-
-<use  "figures/Depth_Filter.jpg" >
-Package hyperref Info: bookmark on input line 179:
-(hyperref)             thecounter {1.7}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 根據物體距離鏡頭遠近來調整方位}}
-(hyperref)             reference {figure.1.7}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.7' on input line 179.
-Package hyperref Info: Anchor `page.7' on input line 182.
- [7]
-Package hyperref Info: Anchor `equation.1.3.2' on input line 196.
-Package hyperref Info: Anchor `equation.1.3.3' on input line 203.
-Package hyperref Info: Anchor `page.8' on input line 210.
- [8]
-Package hyperref Info: Anchor `subsection.1.3.4' on input line 215.
-Package hyperref Info: bookmark on input line 215:
-(hyperref)             thecounter {1.3.4}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 儲存虛擬照相機圖片}
-(hyperref)             reference {subsection.1.3.4}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.1.8' on input line 221.
-File: figures/Depth_Interpolation.jpg Graphic file (type QTm)
-
-<use  "figures/Depth_Interpolation.jpg" >
-Package hyperref Info: bookmark on input line 227:
-(hyperref)             thecounter {1.8}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 內差法補強前後的差異圖}}
-(hyperref)             reference {figure.1.8}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.8' on input line 227.
-Package hyperref Info: Anchor `page.9' on input line 235.
- [9]
-Package hyperref Info: Anchor `section.1.4' on input line 236.
-Package hyperref Info: bookmark on input line 236:
-(hyperref)             thecounter {1.4}
-(hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
- {\csname thesection\endcsname }\fi 虛擬影像定位}
-(hyperref)             reference {section.1.4}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `subsection.1.4.1' on input line 251.
-Package hyperref Info: bookmark on input line 251:
-(hyperref)             thecounter {1.4.1}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 前置作業處理}
-(hyperref)             reference {subsection.1.4.1}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `subsection.1.4.2' on input line 257.
-Package hyperref Info: bookmark on input line 257:
-(hyperref)             thecounter {1.4.2}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 尋找特徵點並找出最多的特徵�
-��投票選出位置}
-(hyperref)             reference {subsection.1.4.2}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.10' on input line 265.
- [10]
-Package hyperref Info: Anchor `subfigure.1.9.1' on input line 268.
-File: figures/SIFT_Descriptor.jpg Graphic file (type QTm)
-
-<use  "figures/SIFT_Descriptor.jpg" >
-Package hyperref Info: Anchor `subfigure.1.9.2' on input line 269.
-
-
-LaTeX Warning: File `figures/SIFT_Descriptor(2).jpg' not found on input line 26
-9.
-
-File: figures/SIFT_Descriptor(2).jpg Graphic file (type QTm)
-<use  "figures/SIFT_Descriptor(2).jpg" >
-Package hyperref Info: bookmark on input line 271:
-(hyperref)             thecounter {1.9}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 特徵點比較差異圖 }}
-(hyperref)             reference {figure.1.9}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.9' on input line 271.
-Package hyperref Info: bookmark on input line 273:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.1.9}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: bookmark on input line 273:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.1.9}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `subsection.1.4.3' on input line 278.
-Package hyperref Info: bookmark on input line 278:
-(hyperref)             thecounter {1.4.3}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 利用虛擬照相機位置來定位}
-(hyperref)             reference {subsection.1.4.3}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.11' on input line 282.
- [11]
-Package hyperref Info: Anchor `section*.13' on input line 288.
-Package hyperref Info: bookmark on input line 288:
-(hyperref)             thecounter {1.4.3.0}
-(hyperref)             text {\ifnum 3>\c@secnumdepth \else \protect \numberline
- {\csname thesubsubsection\endcsname }\fi 找出特徵點對於鏡頭圖片的�
-��角}
-(hyperref)             reference {section*.13}
-(hyperref)             toclevel {3}
-(hyperref)             type {toc}.
-File: figures/Included_Angle.jpg Graphic file (type QTm)
-
-<use  "figures/Included_Angle.jpg" >
-Package hyperref Info: bookmark on input line 293:
-(hyperref)             thecounter {1.10}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 相機與特徵點的夾角示意圖}}
-(hyperref)             reference {figure.1.10}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.10' on input line 293.
-Package hyperref Info: Reference (link) `figure.1.10' on input line 298.
-Package hyperref Info: Anchor `equation.1.4.4' on input line 306.
-Package hyperref Info: Reference (link) `figure.1.10' on input line 309.
-Package hyperref Info: Anchor `equation.1.4.5' on input line 312.
-Package hyperref Info: Anchor `section*.14' on input line 314.
-Package hyperref Info: bookmark on input line 314:
-(hyperref)             thecounter {1.4.3.0}
-(hyperref)             text {\ifnum 3>\c@secnumdepth \else \protect \numberline
- {\csname thesubsubsection\endcsname }\fi 利用夾角帶入餘弦定理 (Cosin
-e Law) 求出特徵點所距離鏡頭圖片位置的長度}
-(hyperref)             reference {section*.14}
-(hyperref)             toclevel {3}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `subfigure.1.11.1' on input line 318.
-
-
-LaTeX Warning: File `figures/Included_Angle(2).jpg' not found on input line 318
-.
-
-File: figures/Included_Angle(2).jpg Graphic file (type QTm)
-<use  "figures/Included_Angle(2).jpg" >
-Package hyperref Info: Anchor `subfigure.1.11.2' on input line 319.
-File: figures/Localization.jpg Graphic file (type QTm)
- <use  "figures/Localization.jpg" >
-Package hyperref Info: bookmark on input line 321:
-(hyperref)             thecounter {1.11}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 定位點夾角與長度向量關係示意圖}}
-(hyperref)             reference {figure.1.11}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.11' on input line 321.
-Package hyperref Info: bookmark on input line 323:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.1.11}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: bookmark on input line 323:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.1.11}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `page.12' on input line 323.
-
-[12]
-Package hyperref Info: Reference (link) `figure.1.11' on input line 326.
-Package hyperref Info: Anchor `equation.1.4.6' on input line 336.
-Package hyperref Info: Anchor `section*.15' on input line 342.
-Package hyperref Info: bookmark on input line 342:
-(hyperref)             thecounter {1.4.3.0}
-(hyperref)             text {\ifnum 3>\c@secnumdepth \else \protect \numberline
- {\csname thesubsubsection\endcsname }\fi 利用已知的長度求出待定位�
-��片的位置}
-(hyperref)             reference {section*.15}
-(hyperref)             toclevel {3}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `equation.1.4.7' on input line 352.
-Package hyperref Info: Anchor `page.13' on input line 352.
- [13]
-Package hyperref Info: Anchor `equation.1.4.8' on input line 363.
-)
-Package hyperref Info: Anchor `page.14' on input line 101.
- [14]
-Package hyperref Info: Anchor `chapter.2' on input line 101.
-
-Chapter 2.
-Package hyperref Info: bookmark on input line 101:
-(hyperref)             thecounter {2}
-(hyperref)             text {\tocprechaptername \protect \numberline {\counterm
-apping {\arabic {chapter}}\tocpostchaptername }定位實驗方法比較分析}
-(hyperref)             reference {chapter.2}
-(hyperref)             toclevel {0}
-(hyperref)             type {toc}.
-(C:\Users\User\Dropbox\ntust_thesis\sections/experiment.tex
-Package hyperref Info: Anchor `section.2.1' on input line 5.
-Package hyperref Info: bookmark on input line 5:
-(hyperref)             thecounter {2.1}
-(hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
- {\csname thesection\endcsname }\fi 實驗目的}
-(hyperref)             reference {section.2.1}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `section.2.2' on input line 18.
-Package hyperref Info: bookmark on input line 18:
-(hyperref)             thecounter {2.2}
-(hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
- {\csname thesection\endcsname }\fi 可控制環境定位數據比較}
-(hyperref)             reference {section.2.2}
-(hyperref)             toclevel {1}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `subsection.2.2.1' on input line 22.
-Package hyperref Info: bookmark on input line 22:
-(hyperref)             thecounter {2.2.1}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 可控制環境實驗方法}
-(hyperref)             reference {subsection.2.2.1}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `table.2.1' on input line 29.
-Package hyperref Info: Anchor `page.15' on input line 30.
- [15
-
-]
-(C:\Users\User\Dropbox\ntust_thesis\tables/ControlledEVParameters.tex
-Package hyperref Info: bookmark on input line 3:
-(hyperref)             thecounter {2.1}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 控制環境實驗參數設定}}
-(hyperref)             reference {table.2.1}
-(hyperref)             toclevel {0}
-(hyperref)             type {lot}.
-Package hyperref Info: Anchor `table.2.1' on input line 3.
-)
-Package hyperref Info: Anchor `subsection.2.2.2' on input line 36.
-Package hyperref Info: bookmark on input line 36:
-(hyperref)             thecounter {2.2.2}
-(hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
- {\csname thesubsection\endcsname }\fi 可控制環境實驗數據分析}
-(hyperref)             reference {subsection.2.2.2}
-(hyperref)             toclevel {2}
-(hyperref)             type {toc}.
-Package hyperref Info: Anchor `section*.16' on input line 46.
-Package hyperref Info: bookmark on input line 46:
-(hyperref)             thecounter {2.2.2.0}
-(hyperref)             text {\ifnum 3>\c@secnumdepth \else \protect \numberline
- {\csname thesubsubsection\endcsname }\fi 特徵點數量分布分析}
-(hyperref)             reference {section*.16}
-(hyperref)             toclevel {3}
-(hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.2.1' on input line 49.
-File: figures/CoverDisk.jpg Graphic file (type QTm)
-
-<use  "figures/CoverDisk.jpg" >
-Package hyperref Info: bookmark on input line 55:
-(hyperref)             thecounter {2.1}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 依照同心圓的覆蓋算出每個半徑內的每張圖�
-�特徵點平均數，左.控制環境 1 右.控制環境 2}}
-(hyperref)             reference {figure.2.1}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.2.1' on input line 55.
-Package hyperref Info: Anchor `figure.2.1' on input line 55.
-Package hyperref Info: Reference (link) `figure.2.2' on input line 60.
-Package hyperref Info: Anchor `page.16' on input line 65.
- [16]
-Package hyperref Info: Anchor `subfigure.2.2.1' on input line 68.
-File: figures/Controlled_EV1_DescriptorNum.eps Graphic file (type eps)
-
-<figures/Controlled_EV1_DescriptorNum.eps>
-Package hyperref Info: Anchor `subfigure.2.2.2' on input line 69.
-File: figures/Controlled_EV2_DescriptorNum.eps Graphic file (type eps)
-
-<figures/Controlled_EV2_DescriptorNum.eps>
-Package hyperref Info: bookmark on input line 71:
-(hyperref)             thecounter {2.2}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 特徵點數量趨勢圖}}
-(hyperref)             reference {figure.2.2}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.2.2' on input line 71.
-Package hyperref Info: bookmark on input line 73:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.2.2}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: bookmark on input line 73:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.2.2}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `subfigure.2.3.1' on input line 77.
-File: figures/Controlled_EV1_Localization_Distance_Error.eps Graphic file (type
- eps)
-
-<figures/Controlled_EV1_Localization_Distance_Error.eps>
-Package hyperref Info: Anchor `subfigure.2.3.2' on input line 78.
-File: figures/Controlled_EV2_Localization_Distance_Error.eps Graphic file (type
- eps)
-
-<figures/Controlled_EV2_Localization_Distance_Error.eps>
-Package hyperref Info: bookmark on input line 80:
-(hyperref)             thecounter {2.3}
-(hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
-ame }{\ignorespaces 間距定位平均誤差趨勢圖}}
-(hyperref)             reference {figure.2.3}
-(hyperref)             toclevel {0}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.2.3' on input line 80.
-Package hyperref Info: bookmark on input line 82:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.2.3}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: bookmark on input line 82:
-(hyperref)             thecounter {()}
-(hyperref)             text {\sf@temp }
-(hyperref)             reference {figure.2.3}
-(hyperref)             toclevel {1}
-(hyperref)             type {lof}.
-Package hyperref Info: Anchor `section*.17' on input line 84.
-Package hyperref Info: bookmark on input line 84:
-(hyperref)             thecounter {2.2.2.0}
-(hyperref)             text {\ifnum 3>\c@secnumdepth \else \protect \numberline
- {\csname thesubsubsection\endcsname }\fi 間距定位誤差分布分析}
-(hyperref)             reference {section*.17}
-(hyperref)             toclevel {3}
-(hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `figure.2.3' on input line 86.
-Package hyperref Info: Anchor `page.17' on input line 95.
- [17]
-Package hyperref Info: Anchor `section*.18' on input line 97.
-Package hyperref Info: bookmark on input line 97:
-(hyperref)             thecounter {2.2.2.0}
-(hyperref)             text {\ifnum 3>\c@secnumdepth \else \protect \numberline
- {\csname thesubsubsection\endcsname }\fi 定位精準度覆蓋率以及平均�
-��位誤差}
-(hyperref)             reference {section*.18}
-(hyperref)             toclevel {3}
-(hyperref)             type {toc}.
-Package hyperref Info: Reference (link) `subfigure.2.2.1' on input line 101.
-Package hyperref Info: Reference (link) `subfigure.2.3.1' on input line 102.
-Package hyperref Info: Anchor `page.18' on input line 106.
- [18])
-(C:\Users\User\Dropbox\ntust_thesis\backpages/ntust_backpages.tex
-Package hyperref Info: Anchor `page.19' on input line 6.
- [19]
-Package hyperref Info: Anchor `section*.19' on input line 7.
-Package hyperref Info: bookmark on input line 8:
-(hyperref)             thecounter {2}
-(hyperref)             text {\nameRef }
-(hyperref)             reference {section*.19}
-(hyperref)             toclevel {0}
-(hyperref)             type {toc}.
-
-(C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.bbl
-Package hyperref Info: Anchor `chapter*.20' on input line 2.
-
-Underfull \hbox (badness 10000) detected at line 2
-\EU1/lmr/bx/n/20.74 Bibliography
- []
-
-Package hyperref Info: Anchor `Item.1' on input line 24.
-))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package hyperref Info: Anchor `page.20' on input line 118.
- [20
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
- (C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 118.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
- ) 
-Here is how much of TeX's memory you used:
- 24620 strings out of 429035
- 470049 string characters out of 3167909
- 488018 words of memory out of 3000000
- 27547 multiletter control sequences out of 15000+200000
- 11221 words of font info for 77 fonts, out of 3000000 for 9000
- 912 hyphenation exceptions out of 8191
- 46i,15n,46p,734b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-Output written on ntust_thesis_xelatex.pdf (31 pages).
+ [4
