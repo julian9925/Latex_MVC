@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.24)  29 NOV 2012 17:50
+This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.24)  13 DEC 2012 14:29
 entering extended mode
 **experiment.tex
 (C:\Users\User\Dropbox\ntust_thesis\sections\experiment.tex
@@ -475,7 +475,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 11--16
 
 ! Undefined control sequence.
 l.18 \section
-             {可控制環境定位數據比較}
+             {特徵點固定環境之下定位結果分析}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -489,22 +489,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 \section{可
-                 控制環境定位數據比較}
+l.18 \section{特
+                 徵點固定環境之下定位結果分析}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no 可 in font nullfont!
-Missing character: There is no 控 in font nullfont!
-Missing character: There is no 制 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 徵 in font nullfont!
+Missing character: There is no 點 in font nullfont!
+Missing character: There is no 固 in font nullfont!
+Missing character: There is no 定 in font nullfont!
 Missing character: There is no 環 in font nullfont!
 Missing character: There is no 境 in font nullfont!
+Missing character: There is no 之 in font nullfont!
+Missing character: There is no 下 in font nullfont!
 Missing character: There is no 定 in font nullfont!
 Missing character: There is no 位 in font nullfont!
-Missing character: There is no 數 in font nullfont!
-Missing character: There is no 據 in font nullfont!
-Missing character: There is no 比 in font nullfont!
-Missing character: There is no 較 in font nullfont!
+Missing character: There is no 結 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 析 in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
 [] 
@@ -512,7 +516,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
 
 ! Undefined control sequence.
 l.22 \subsection
-                {可控制環境實驗方法}
+                {環境實驗方法}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -526,14 +530,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \subsection{可
-                    控制環境實驗方法}
+l.22 \subsection{環
+                    境實驗方法}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no 可 in font nullfont!
-Missing character: There is no 控 in font nullfont!
-Missing character: There is no 制 in font nullfont!
 Missing character: There is no 環 in font nullfont!
 Missing character: There is no 境 in font nullfont!
 Missing character: There is no 實 in font nullfont!

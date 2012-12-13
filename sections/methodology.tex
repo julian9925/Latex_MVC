@@ -145,35 +145,46 @@ Kinect 紅外深度攝影機，取得深度資訊後幫助我們做出3D的點�
 	上一個章節中，我們完成了實驗環境的建置，也就是點雲環境的資料。在這個章節中為了環境內每個景物都有充分拍攝而取得足夠的特徵點，將虛擬相機位置設置成格狀分布，在每個區塊上設置一個虛擬照
 	相機。格狀分布的好處在於能夠減少相機集中在某處的情形發生，以圖來說，格狀分布會均勻分布在環境內，但隨機分布卻過於集中在圓圈處，再之後實驗會分別進行定位比較。
 	格狀分布作法依據環境而有所改變，為了希望環境內建置50部以上的虛擬相機，我們會將環境的長度分成8個等分、寬度分成7個等分，這樣每個等分都會有一樣的距離間隔，完成56部虛擬相機擺設的位置。
-	接下來再隨機分布照相機角度，完成虛擬照相機布置的工作。隨機分布照相機角度比一般2D影像定位所建置的資料庫比較有更寬廣的角度。一般影像資料庫可能只針對特定區域的特徵點作取樣，而導致特
-	定區域內的影像定位效果非常好，但在其他區域卻沒有足夠的影像特徵點資料，使得定位誤差範圍過大，透過均勻分布不會有部分景物或場景沒有被拍攝到，也可以增加定位
-	的覆蓋率。
+	接下來隨機分布照相機角度，完成虛擬照相機布置的工作。隨機分布照相機角度比一般2D影像定位所建置的資料庫比較有更寬廣的角度。一般影像資料庫可能只針對特定區域的特徵點作取樣，而導致特
+	定區域內的影像定位效果非常好，但在其他區域卻沒有足夠的影像特徵點資料，使得定位誤差範圍過大，透過均勻分布不會有部分景物或場景沒有被拍攝到，也可以增加定位的覆蓋率。
 	
 \subsection{虛擬照相機成像原理}
 %虛擬照相機成像原理
 %
-	當虛擬相機位置固定之後，接下來利用虛擬相機拍攝照片，透過攝影機的影像角錐來模擬相機的成像，將角錐內3D影像投影成2D影像，模擬照相機所照出的照片。
-	透過OpenGL的坐標系，先將視野調整到虛擬照相機的位置，再利用OpenGL中glFrustum這個矩陣取得相機影像角錐，這個矩陣目的在於模擬相機光線經過透鏡成像，在投影到平面影像呈現看出來的
-	照片，矩陣表示法如下：
+	當虛擬相機位置固定之後，接下來利用虛擬相機拍攝照片，透過攝影機的影像角錐來模擬相機的成像，取出角錐內範圍的3D點雲，模擬照相機所照出的照片。
+	透過OpenGL的坐標系，先將視野調整到虛擬照相機的位置，再利用OpenGL中glFrustum這個矩陣取得相機影像角錐，這個矩陣目的在於模擬相機光線經過透鏡成像，矩陣表示法如下：
+	
+
+\begin{figure}
+  \begin{center}
+    \subfigure[攝影機的攝影近裁面(near)與遠裁面(far)表示]{\label{fig:glFrustum}\includegraphics[width=0.45\columnwidth]{figures/Camera_image.jpg}}
+    \subfigure[相似三角形表示法]{\label{fig:o_depth_interpolation}\includegraphics[width=0.45\columnwidth]{figures/o_depth_interpolation.jpg}}
+  \end{center}
+  \caption{glFrustrum 矩陣圖示說明}
+  \label{fig:rotate axis}
+\end{figure}
+    
+	
 	
 	\begin{align}
 	glFrustrum = \left(
 		 			\begin{array}{cccc}
 		 			\frac{2near}{right - left} & 0 & \frac{right + left}{right - left} & 0 \\
 		 			0 & \frac{2near}{top - bottom} & \frac{top + bottom}{top - bottom} & 0 \\
-		 			0 & 0 & \frac{far + near}{far - near}  & \frac{2far \times near}{far - near} \\
+		 			0 & 0 & -\frac{far + near}{far - near}  & -\frac{2far \times near}{far - near} \\
 		 			0 & 0 & -1 & 0 \\
 		 			\end{array}
 		 		\right)
 	\end{align}
 	
 	                    
-	將座標轉為齊次座標後，利用攝影機的攝影近裁面(near)與遠裁面(far)的相似三角形來推出這個矩陣，這個矩陣會將角錐內的景像投影到2D平面上，即可完成虛擬照相機的建置。這部分攝影機的焦距設定，
-	以及解析度都參照Kinect紅外深度攝影機的參數設定。要解釋如何求出glfrustrum矩陣，需要用到三項條件來說明：(1) 證明$\frac{1}{z}$為線性關係，(2) 求出位於頂點Z座標之間的線性關係，(3) 將(1)，(2)所求出的公式帶入投影座標求出矩陣關係式。
+	將座標轉為齊次座標後，利用攝影機的攝影近裁面(near)與遠裁面(far)的相似三角形來推出這個矩陣，這個矩陣會將角錐內的景像投影到深度在$[-1,1]$之間。這部分攝影機的焦距設定，
+	以及解析度都參照Kinect紅外深度攝影機的參數設定。要解釋如何求出glfrustrum矩陣，需要用到兩項條件來說明：(1) 證明$\frac{1}{z}$為線性關係，
+	(2) 將(1)所求出的公式帶入投影座標求出矩陣關係式。
 	
 	(1) 證明$\frac{1}{z}$為線性關係：
 	
-	根據圖所示，由相似關係三角形得出的關係式：
+	根據圖\ref{fig:o_depth_interpolation}所示，由相似關係三角形得出的關係式：
 	
 	\begin{align}
 		p = \frac{-n}{z} \times x		 		
@@ -194,53 +205,62 @@ Kinect 紅外深度攝影機，取得深度資訊後幫助我們做出3D的點�
 		\frac{1}{z_3} = t \frac{1}{z_1}  + (1-t)\frac{1}{z_2} 
 	\end{align}
 	
-	(2) 求出位於頂點Z座標之間的線性關係：
+%	(2) 求出位於頂點Z座標之間的線性關係：
+%	
+%	我們將頂點座標以b為表示，同一條線相互的點座標關係可以寫為$\frac{b_3 - b_1}{b_2 - b_1} = \frac{z_3 - z_1}{z_2 - z_1} $ ，其中$z_3$表示式為：
+%	\begin{align}
+%		z_3 = \frac{1}{\frac{1}{z_1}t + \frac{1}{z_2} (1-t)}
+%	\end{align}
+%	
+%	將式(1.6)帶入關係式中得出
+%	\begin{align}
+%		b_3 = z_3[ \frac{b_1}{z_1}t + \frac{b_2}{z_2}(1-t) ]
+%	\end{align}
 	
-	同一條線相互的點座標關係可以寫為$\frac{b_3 - b_1}{b_2 - b_1} = \frac{z_3 - z_1}{z_2 - z_1} $ ，其中$z_3$表示式為：
+	(2) 將(1)所求出的公式帶入投影座標求出矩陣關係式：
+	
+	在最後一個步驟中，要把之前求出的關係式都帶到投影座標內，我們假設$(x, y, z, w)$為攝影機座標，$(x', y', z', w')$為投影座標，而$(P_x,P_y,P_z,P_w)$為攝影角錐內的座標，
+	以圖\ref{fig:glFrustum}為例，t=top, l=left, r=right, b=bottom，對於x,y其中關係式可以寫為：	
 	\begin{align}
-		z_3 = \frac{1}{\frac{1}{z_1}t + \frac{1}{z_2} (1-t)}
-	\end{align}
-	
-	將式(1.6)帶入關係式中得出
-	\begin{align}
-		b_3 = z_3[ \frac{b_1}{z_1}t + \frac{b_2}{z_2}(1-t) ]
-	\end{align}
-	
-	(3) 將(1)，(2)所求出的公式帶入投影座標求出矩陣關係式：
-	
-	在最後一個步驟中，要把之前求出的關係式都帶到投影座標內，我們假設$(x, y, z, w)$為攝影機座標，$(x', y', z', w')$為投影座標，而$(P_x, P_y,P_z,P_w)$為攝影角錐內的座標，
-	對於x,y其中關係式可以寫為：	
-	\begin{align}
-		x' = \frac{-nx}{z}  	y' = \frac{-ny}{z}
+		x' = \frac{-nx}{z}  \quad y' = \frac{-ny}{z}
 	\end{align}
 	
 	將其縮放到可視範圍$[-1,1]$之間，得出：	
 	\begin{align}
-		\frac{1-P_x}{1-(-1)} = \frac{r-x'}{r-l}  		\frac{1-P_y}{1-(-1)} = \frac{t-y'}{t-b}
+		\frac{1-P_x}{1-(-1)} = \frac{r-x'}{r-l} \quad 	\frac{1-P_y}{1-(-1)} = \frac{t-y'}{t-b}
 	\end{align}
 	
 	化簡後得出：
 	\begin{align}
-		P_x = \frac{2x'}{r-l} - \frac{r+l}{r-l} 		P_y = \frac{2y'}{t-b} - \frac{t+b}{t-b}
+		P_x = \frac{2x'}{r-l} - \frac{r+l}{r-l} \quad   P_y = \frac{2y'}{t-b} - \frac{t+b}{t-b}
 	\end{align}
 	
 	帶入$x',y'$：
 	\begin{align}
-		P_x = \frac{2n}{r-l} (-\frac{x}{z}) - \frac{r+l}{r-l} 		P_y = \frac{2n}{t-b} (-\frac{y}{z}) - \frac{t+b}{t-b} 
+		P_x = \frac{2n}{r-l} (-\frac{x}{z}) - \frac{r+l}{r-l} 	\quad	P_y = \frac{2n}{t-b} (-\frac{y}{z}) - \frac{t+b}{t-b} 
 	\end{align}
 	
+	已知$P_Z$與$\frac{1}{z} $呈現性關係，設$P_z = \frac{a}{z}+b$，求a與b。已知兩點$(-n,-1),(-f,1)$，所以：
+	\begin{align}
+		a = \frac{2nf}{f-n} \quad b = \frac{f+n}{f-n} \\
+		P_z = \frac{2nf}{f-n}(\frac{1}{z}) + \frac{f+n}{f-n} 
+	\end{align}
 	
-	與真實相機的相機參數相同，再接下來實驗就相機拍出來的照片作對照，做為比較的依據。當我們截取下攝影機的圖片後，會先將角錐內影像的深度作平
-	均，為的是求取平均深度來看虛擬相機取的位置會部會太逼近虛擬環境內的景物，或是虛擬相機位置太靠近點雲邊界，這部分會在之後的章節作說明。
+	把$P_x, P_y$與$P_Z$轉成齊次坐標系得出：
+	\begin{align}
+		\left\{
+		\begin{array}{ccc}
+		-zP_x = \frac{2n}{r-l}x + \frac{r-l}{r+l}z  \\
+		-zP_x = \frac{2n}{t-b}x + \frac{t+b}{t-b}z  \\
+		-zP_z = -\frac{2nf}{f-n} - \frac{f+n}{f-n}z \\
+		w = -z\\
+		\end{array}
+		\right.
+	\end{align}
 	
-	\begin{figure*}
-	\begin{center}
-	  \includegraphics[width=0.5\textwidth]{figures/Camera_image.jpg}
-	  \caption{攝影機的攝影近裁面(near)與遠裁面(far)表示}
-	  \label{fig:glFrustum}
-	\end{center}
-	\end{figure*}	
-
+	上述為glFrustrum矩陣式子所推導的過程，我們將攝影角錐內的點雲投影成平面，存取虛擬影像。當存取完虛擬影像後，我們會判斷相機位置是否會太逼近虛擬環境內的景物，
+	太靠近點雲邊界。這時候我們利用影像內的平均深度，判斷相機角度的選擇是否適當，這部分會在之後的章節作說明。
+	
 \subsection{根據深度來調整攝影機角度}
 %根據深度來調整攝影機角度
 %
@@ -256,7 +276,8 @@ Kinect 紅外深度攝影機，取得深度資訊後幫助我們做出3D的點�
 	當虛擬照相機的圖片擷取出來後，因為拍照的相機深度過淺，而導致拍攝的景物無法辨識，這時候我們利用深度過濾的機制來將照相機取得角度作過濾。一般深度buffer分為z-buffer與w-buffer兩種，
 	先從兩種不同的深度分辨方式作探討：
 	
-	首先作關於深度的計算，利用四維座標軸$(x,y,z,w)$表示三維座標軸$(x',y',z')$的點，空間關係的表示法為：
+	首先作關於深度的計算，利用四維座標軸$(x,y,z,w)$表示三維座標軸$(x',y',z')$的點，以圖\ref{fig:glFrustum}為例，
+	t=top, l=left, r=right, b=bottom，空間關係的表示法為：
 	\begin{align}
 		\left\{
 		\begin{array}{ccc}
@@ -442,5 +463,5 @@ Kinect 紅外深度攝影機，取得深度資訊後幫助我們做出3D的點�
     影像定位求解來的誤差更大。根據這點，我們利用虛擬相機的位置來當參考的定位點，當我們找出最多特徵點的虛擬照片後，我們還是利用虛擬影像作三角定位，當
     所求的定位點與虛擬相機絕對距離超過70公分，我們就利用虛擬相機位置做最後定位點，否則則三角定位的位置則為最後定位完成的結果。
     
-    會這樣做的理由基於我們每個相機的ｘ軸距離與y軸距離是50公分，為均勻分布，所以假定最大的平均定位誤差就為$\sqrt{x^2+y^2}=70.7$公分，當定位超過
-    這個平均誤差距離，我們最後還是捨棄三角定位的結果，改以最多特徵點的虛擬相機位置為最終的成果。
+    會這樣做的理由基於我們每個相機的ｘ軸距離與y軸距離是50公分，為均勻分布，所以假定最大的平均定位誤差就為$\sqrt{x^2+y^2}=70.7$公分，當定位位置與相機距離超過
+    平均誤差距離，我們會捨棄三角定位的結果，改以最多特徵點的虛擬相機位置為最終的成果。
