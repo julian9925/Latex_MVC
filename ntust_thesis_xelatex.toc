@@ -14,23 +14,24 @@
 \contentsline {section}{\numberline {1.3}虛擬照相機設置及影像資料庫建置}{5}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}均勻分布設置虛擬攝影機}{6}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}虛擬照相機成像原理}{7}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}根據深度來調整攝影機角度}{9}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}儲存虛擬照相機圖片}{11}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.3}利用計算深度來優化攝影機角度}{9}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}儲存虛擬相機影像建立資料庫}{11}{subsection.1.3.4}
 \contentsline {section}{\numberline {1.4}虛擬影像定位}{12}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}前置作業處理}{12}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}導入虛擬相機坐標位置作參考}{12}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}尋找特徵點並找出最多的特徵點投票選出位置}{12}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}利用虛擬照相機位置來定位}{14}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.3}利用虛擬相機位置來定位}{14}{subsection.1.4.3}
 \contentsline {subsubsection}{找出特徵點對於鏡頭圖片的夾角}{14}{section*.13}
 \contentsline {subsubsection}{利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度}{15}{section*.14}
 \contentsline {subsubsection}{利用已知的長度求出待定位圖片的位置}{16}{section*.15}
 \contentsline {chapter}{\numberline {2}定位實驗方法比較分析}{17}{chapter.2}
 \contentsline {section}{\numberline {2.1}實驗目的}{17}{section.2.1}
-\contentsline {section}{\numberline {2.2}特徵點固定環境之下定位結果分析}{17}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}環境實驗方法}{17}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}環境實驗數據結果分析}{18}{subsection.2.2.2}
-\contentsline {subsubsection}{特徵點數量分布分析}{18}{section*.16}
-\contentsline {subsubsection}{間距定位誤差分布分析}{19}{section*.17}
-\contentsline {subsubsection}{定位精準度覆蓋率以及平均定位誤差}{20}{section*.18}
-\contentsline {section}{\numberline {2.3}一般室內環境定位結果分析}{21}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}環境實驗方法}{21}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.2}特徵點固定環境下定位結果分析}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}特徵點固定環境下實驗方法}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}分析不同因素影響特徵點固定環境下實驗結果}{18}{subsection.2.2.2}
+\contentsline {subsubsection}{特徵點數量分布對定位結果影響探討}{18}{section*.16}
+\contentsline {subsubsection}{間距定位誤差分布比較}{19}{section*.17}
+\contentsline {subsubsection}{定位精準度覆蓋率以及平均定位誤差改善情況}{20}{section*.18}
+\contentsline {section}{\numberline {2.3}一般室內環境定位實驗}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}室內環境定位方法說明}{21}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}定位數據結果分析比較}{22}{subsection.2.3.2}
 \contentsline {chapter}{Bibliography}{25}{section*.19}
