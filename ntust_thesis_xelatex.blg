@@ -1,8 +1,17 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: ntust_thesis_xelatex.aux
 The style file: IEEEtran.bst
 Database file #1: ref.bib
+I was expecting a `,' or a `}'---line 115 of file ref.bib
+ :  
+ :  publisher={Springer Berlin Heidelberg},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in 174711
+Warning--empty journal in Davison2001
+Warning--empty journal in Durrant2003
 
 Done.
+(There was 1 error message)

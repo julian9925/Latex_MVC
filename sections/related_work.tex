@@ -1,50 +1,79 @@
 %\section{Related Work}\label{Related}
-  
-  這個章節描述之前關於室內定位及 3D 虛擬環境建立的方法介紹，
 
-\section{Simultaneous Localization And Mapping 方法描述介紹}
+	室內定位研究大部分是利用訊號接收作三角定位，但是需要設備上的支援，如：紅外線、超聲波、Wifi 等設備，訊號的不穩定也會影響定位的誤差。
+之後有研究把影像特徵點當作訊號作定位研究，影像定位可以減少訊號不穩定導致的定位誤差，但是照片取樣分布不均及相機角度上的限制，使得室內定位
+可定位的範圍受到很大的限制。我們方法利用照片組建出3D點雲環境，在3D環境內拍攝虛擬相片作定位，彌補訊號不穩定的情形及增加可定位的範圍。在相
+關研究的章節中我們分成三個階段來說明使用的研究技術。首先基於現今室內定位的研究作探討，再來說明本文方法中3D環境技術的相關研究，最後說明如
+何在照片中找到特徵點及特徵點批倍的方法。
 
-\section{尺度不變特徵向量(Scale Invariant Feature Transform)}
+\section{室內定位的相關研究}
 
+\section{SLAM 在建置3D環境的應用}
+
+%介紹SLAM起源
+	上個章節介紹一些室內定位的方法，接下來的章節將介紹Simultaneous Localization and Mapping(SLAM)的方法，以及相關的研
+究。SLAM 是利用拍攝路徑的連串影像，針對這些影像的相對關係來製作出一條可被看見的路徑。由Harris和Pike在1987年所提
+\cite{Harris198887}的方法，利用連串的影像拼湊出一個影像路徑的地圖，當初的這項研究為最早SLAM的起源。這方法可以秀出路徑上特定
+的3D特徵，但是卻無法找出這些3D特徵點的相對關係。這方法因為特徵點之間沒有相對關係，導致找出的路徑與實際影像路徑有所差異，且所做出的
+路徑無法封閉，也就是說根據這條路徑沒辦法走回原點。在之後的方法，找出路徑上特徵點的相對關係以及做出一條封閉的路徑，就成了改進SLAM的
+研究目標。
+
+%說明SLAM技術的核心
+	在之後的研究，像是\cite{174711}、\cite{1087373}與\cite{Smith1988}，都朝找出特徵點對應關係，這個方向做加強。這些研究的共同點都是以 Extended Kalman Filter(EKF)來做路徑分析，EKF方法主要是說，由現在的狀態去預測出未來會發生的情況，利用最大似然
+估算法(Maximum Likelihood)來找出最有可能發生的情況，運用在SLAM上面則是改善了特徵點與特徵點相互對應的情況，藉由特徵點分布找出最
+有可能的連通關係，形成一個封閉的路徑。由於科技的進步加快運算的速度，在\cite{Betge1996}與\cite{Davison2001}的研究把EKF 
+SLAM技術用在一般室內環境之中，也經實驗證實FKF能有效改善SLAM預估出來的路徑所產生的誤差。這對SLAM研究上有了新的發展方向，也有其他研究把機率模型應用在SLAM改善路徑誤差，像是\cite{Durrant2003}的研究。
+
+%介紹SLAM用在3D model	的情形
+	在現今的研究中，有很多的研究利用SLAM來建置3D模型，SLAM在應用上的好處在於增加影像之間匹配關係，以及可用在一般室內環境中。
+
+
+\section{特徵點的比對與匹配}
+
+	建置3D模型中，我們的方法利用Graph SLAM方法來減少相片之間匹配的錯誤，在上個章節介紹了SLAM的相關研究後，在這個章節我們將說明
+如何利用照片找出特徵點，及特徵點匹配的相關研究。找出圖形特徵點及匹配特徵點，目的在不同的照片中拍攝到相同的景物，利用同樣的景物找出兩
+個照片相對應的特徵點，再利用特徵點求出這些相片的的相對位置，決定如何將照片放置在3D環境中。基於這項目的，先利用SIFT找出特徵點，再用
+RANSAC找出特徵點匹配的關係，使得照片能夠在正確的位置重合。下面的章節將介紹SIFT與RANSAC的方法。
+
+	
+\subsection{SIFT 尺度不變特徵向量}
 %SIFT 特徵點描述方法
-	尺度不變特徵向量(SIFT) 一開始由 lowe \cite{Lowe2004} 所提出，目的是尋找兩張圖片中的相似特徵向量來比對兩張圖片的相對關係，主要分成四個階段：
-\begin{itemize}
-	\item (1) 區域空間極值分布
-  \item (2) 特徵點定位與篩選
-  \item (3) 特徵點方向分配
-  \item (4) 特徵點描述向量建立
-\end{itemize}
+	取出相片中特徵點的方法，一開始由 lowe \cite{Lowe2004} 所提出，稱為尺度不變特徵向量(SIFT)。後來有人針對SIFT做演算法的加速(SURF)\cite{Bay2006}
+以及增強找出特徵點數量的方法(ASIFT)\cite{Guo2009}。SURF的方法雖然快速，但是簡化許多計算流程，影響找出圖片當中特徵點的數量，如果
+套用在我們的方法中，會導致之後特徵點無法做到有效的匹配。ASIFT是將照片可能會旋轉、放大或縮小的情況考慮進去，將這些照片模擬不同變
+化，再根據不同變化的照片中找出匹配的特徵點。此舉會導致運算量的增加，考慮到龐大的運算量導致時間的增加，我們還是使用一般的SIFT方法找出特徵點。
+
+
+	尺度不變特徵向量(SIFT)，主要分成四個階段：
+
+ \begin{enumerate}
+	  \item 區域空間極值分布	
+	  \item 特徵點定位與篩選
+	  \item 特徵點方向分配
+	  \item 特徵點描述向量建立
+ \end{enumerate}
 
    第一階段(1) 區域空間極值篩選，先利用不同尺度間的高斯金字塔選擇區域中的最大極值，其高斯分布式子如下：
 \begin{align}
   G(x,y,\sigma) = \frac{1}{2\pi\sigma^2}exp(-(x^2+y^2)/2\sigma^2) 
 \end{align}
 
-	不同尺度的高斯分布利用摺積 (Convolution) 將影像模糊化。 $I(x,y)$代表原始影像，$G(x,y,\sigma)$代表高斯函數：
-	
+	不同尺度的高斯分布利用摺積 (Convolution) 將影像模糊化。 $I(x,y)$代表原始影像，$G(x,y,\sigma)$代表高斯函數：	
 \begin{align}
   L(x,y,\sigma) = G(x,y,\sigma)\ast{I(x,y)}
 \end{align}
 
-\begin{figure*}
-\begin{center}
-  \includegraphics[width=0.8\textwidth]{figures/Gaussian_Prymaid.jpg}
-  \caption{高斯差分與影像金字塔}
-  \label{fig:Gaussian Prymaid}
-\end{center}
-\end{figure*}  
-
-\begin{figure*}
-\begin{center}
-  \includegraphics[width=0.7\textwidth]{figures/extreme_value_detect.jpg}
-  \caption{尺度極值偵測}
-  \label{fig:Extreme Value Detect}
-\end{center}
-\end{figure*}  
+\begin{figure}
+  \begin{center}
+    \subfigure[高斯差分與影像金字塔]{\label{fig:Gaussian Prymaid}\includegraphics[width=0.45\columnwidth]{figures/Gaussian_Prymaid.jpg}}
+    \subfigure[尺度極值偵測]{\label{fig:Extreme Value Detect}\includegraphics[width=0.45\columnwidth]{figures/extreme_value_detect.jpg}}
+  \end{center}
+  \caption{glFrustrum 矩陣圖示說明}
+  \label{fig:SIFT_explanation}
+\end{figure}
 
   再利用每組影像相鄰的高絲模糊影像進行高斯差分(Difference-Of-Gaussian)，目的用於在集合內4組高斯差分影像中找出極值
-  ，式子如(1.3)所示：
-    
+  ，式子如(1.3)所示：    
 \begin{align}
   D(x,y,\sigma) = L(x,y,k\sigma)-L(x,y,\sigma)
 \end{align}
@@ -52,8 +81,7 @@
 　　在此k為高斯模糊的尺度比值，設為$\sqrt{2}$，若某個像素的極值為26個相鄰的像素中最大或最小的話，則此像素的位址即為區域極值的所在。
 
 　　第二階段(2) 特徵點定位篩選，其主要的目的在於找出真正有用的特徵點，在此特徵點的精準度必須要達到次像素的精度。有的特徵點其極值為低對比度的點，這時候這些低對比度的特徵點就會不予採用，剩下的特徵點即可為
-下一階段所使用。作法首先將(1.3)利用泰勒展開得到(1.4):
- 
+下一階段所使用。作法首先將(1.3)利用泰勒展開得到(1.4): 
 \begin{align}
   D(x) = D + \frac{\delta D^T}{\delta X}X + \frac{1}{2}X^T\frac{\delta^2 D}{\delta X^2}X
 \end{align}
@@ -65,8 +93,7 @@
 \end{align}   
    
    
-   若是$\vec{X} >= 0.5$，或是 $\sigma > k/2$，表示此區域極值點較靠近相鄰的點位，則需要再將此點移至相鄰的極值再經(1.5)計算後得到最佳的位置。若將$\vec{X}$帶入(1.4)中，可得(1.6)我們所用來篩選的式子:
-   
+   若是$\vec{X} >= 0.5$，或是 $\sigma > k/2$，表示此區域極值點較靠近相鄰的點位，則需要再將此點移至相鄰的極值再經(1.5)計算後得到最佳的位置。若將$\vec{X}$帶入(1.4)中，可得(1.6)我們所用來篩選的式子:  
 \begin{align}
   D(\vec{X}) = D+\frac{1}{2} \frac{\sigma D^T}{\sigma X} \vec{X}
 \end{align}      
@@ -75,7 +102,6 @@
    
    第三階段(3) 特徵點方向分配，目的在於當對比的圖片有旋轉或者是尺度上的變化，相同的特徵點為了保有相同方向的特性，必須賦予每個特徵點一組特定的方向。其做法則是利用統計的方式，將所有的梯度值以角度每10個單位做方位直方圖記錄，
 並且記錄每個梯度的強度，以(1.7)(1.8)表示：
-
 \begin{align}
 	\theta (x,y)= tan^{-1}(\frac{\delta L}{\delta y}/\frac{\delta L}{\delta x}))
 \end{align}      
@@ -101,7 +127,7 @@
      每個特徵點有 16 個方位的直方圖，每個方位直方圖內有 8 個梯度強度值，因此共有$ 16 x 8 = 128$個特徵值，
      這些特徵點則為我們所需要的描述向量。
 
-\section{室內定位方法簡介}
+\subsection{RANSAC}
 
 %放一些有關SIFT的相關應用
 
