@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.24)  24 DEC 2012 20:47
+This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2012.9.24)  25 DEC 2012 15:35
 entering extended mode
 **ntust_thesis_xelatex.tex
 (C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.tex
@@ -1473,116 +1473,118 @@ Package hyperref Info: bookmark on input line 9:
 (hyperref)             reference {section.1.1}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.1' on input line 18.
+Package hyperref Info: Anchor `page.1' on input line 25.
  [1
 
 ]
-Package hyperref Info: Anchor `section.1.2' on input line 26.
-Package hyperref Info: bookmark on input line 26:
+Package hyperref Info: Anchor `section.1.2' on input line 40.
+Package hyperref Info: bookmark on input line 40:
 (hyperref)             thecounter {1.2}
 (hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
  {\csname thesection\endcsname }\fi SLAM 在建置3D環境的應用}
 (hyperref)             reference {section.1.2}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.2' on input line 35.
+Package hyperref Info: Anchor `page.2' on input line 49.
  [2]
-Package hyperref Info: Anchor `section.1.3' on input line 46.
-Package hyperref Info: bookmark on input line 46:
+Package hyperref Info: Anchor `section.1.3' on input line 60.
+Package hyperref Info: bookmark on input line 60:
 (hyperref)             thecounter {1.3}
 (hyperref)             text {\ifnum 1>\c@secnumdepth \else \protect \numberline
  {\csname thesection\endcsname }\fi 特徵點的比對與匹配}
 (hyperref)             reference {section.1.3}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `subsection.1.3.1' on input line 54.
-Package hyperref Info: bookmark on input line 54:
+Package hyperref Info: Anchor `subsection.1.3.1' on input line 68.
+Package hyperref Info: bookmark on input line 68:
 (hyperref)             thecounter {1.3.1}
 (hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
  {\csname thesubsection\endcsname }\fi SIFT 尺度不變特徵向量}
 (hyperref)             reference {subsection.1.3.1}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.3' on input line 60.
+Package hyperref Info: Anchor `page.3' on input line 74.
  [3]
-Package hyperref Info: Anchor `Item.1' on input line 65.
-Package hyperref Info: Anchor `Item.2' on input line 66.
-Package hyperref Info: Anchor `Item.3' on input line 67.
-Package hyperref Info: Anchor `Item.4' on input line 68.
-Package hyperref Info: Anchor `equation.1.3.1' on input line 74.
-Package hyperref Info: Anchor `equation.1.3.2' on input line 79.
-Package hyperref Info: Anchor `subfigure.1.1.1' on input line 83.
+Package hyperref Info: Anchor `Item.1' on input line 79.
+Package hyperref Info: Anchor `Item.2' on input line 80.
+Package hyperref Info: Anchor `Item.3' on input line 81.
+Package hyperref Info: Anchor `Item.4' on input line 82.
+Package hyperref Info: Anchor `equation.1.3.1' on input line 88.
+Package hyperref Info: Anchor `equation.1.3.2' on input line 93.
+Package hyperref Info: Anchor `subfigure.1.1.1' on input line 97.
 File: figures/Gaussian_Prymaid.jpg Graphic file (type QTm)
 
 <use  "figures/Gaussian_Prymaid.jpg" >
-Package hyperref Info: Anchor `subfigure.1.1.2' on input line 84.
+Package hyperref Info: Anchor `subfigure.1.1.2' on input line 98.
 File: figures/extreme_value_detect.jpg Graphic file (type QTm)
 
 <use  "figures/extreme_value_detect.jpg" >
-Package hyperref Info: bookmark on input line 86:
+Package hyperref Info: bookmark on input line 100:
 (hyperref)             thecounter {1.1}
 (hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
 ame }{\ignorespaces glFrustrum 矩陣圖示說明}}
 (hyperref)             reference {figure.1.1}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.1' on input line 86.
-Package hyperref Info: bookmark on input line 88:
+Package hyperref Info: Anchor `figure.1.1' on input line 100.
+Package hyperref Info: bookmark on input line 102:
 (hyperref)             thecounter {()}
 (hyperref)             text {\sf@temp }
 (hyperref)             reference {figure.1.1}
 (hyperref)             toclevel {1}
 (hyperref)             type {lof}.
-Package hyperref Info: bookmark on input line 88:
+Package hyperref Info: bookmark on input line 102:
 (hyperref)             thecounter {()}
 (hyperref)             text {\sf@temp }
 (hyperref)             reference {figure.1.1}
 (hyperref)             toclevel {1}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `equation.1.3.3' on input line 94.
-Package hyperref Info: Anchor `page.4' on input line 100.
+Package hyperref Info: Anchor `equation.1.3.3' on input line 108.
+Package hyperref Info: Anchor `page.4' on input line 114.
  [4]
-Package hyperref Info: Anchor `equation.1.3.4' on input line 102.
-Package hyperref Info: Anchor `equation.1.3.5' on input line 108.
-Package hyperref Info: Anchor `equation.1.3.6' on input line 114.
-Package hyperref Info: Anchor `page.5' on input line 120.
+Package hyperref Info: Anchor `equation.1.3.4' on input line 116.
+Package hyperref Info: Anchor `equation.1.3.5' on input line 122.
+Package hyperref Info: Anchor `equation.1.3.6' on input line 128.
+Package hyperref Info: Anchor `page.5' on input line 134.
  [5]
-Package hyperref Info: Anchor `equation.1.3.7' on input line 122.
-Package hyperref Info: Anchor `equation.1.3.8' on input line 126.
-Package hyperref Info: Reference (link) `figure.1.2' on input line 132.
+Package hyperref Info: Anchor `equation.1.3.7' on input line 136.
+Package hyperref Info: Anchor `equation.1.3.8' on input line 140.
+Package hyperref Info: Reference (link) `figure.1.2' on input line 146.
 File: figures/SIFT_histogram.jpg Graphic file (type QTm)
 
 <use  "figures/SIFT_histogram.jpg" >
-Package hyperref Info: bookmark on input line 137:
+Package hyperref Info: bookmark on input line 151:
 (hyperref)             thecounter {1.2}
 (hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
 ame }{\ignorespaces 特徵點向量方為與強度示意直方圖}}
 (hyperref)             reference {figure.1.2}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `figure.1.2' on input line 137.
-Package hyperref Info: Anchor `subsection.1.3.2' on input line 145.
-Package hyperref Info: bookmark on input line 145:
+Package hyperref Info: Anchor `figure.1.2' on input line 151.
+Package hyperref Info: Anchor `subsection.1.3.2' on input line 159.
+Package hyperref Info: bookmark on input line 159:
 (hyperref)             thecounter {1.3.2}
 (hyperref)             text {\ifnum 2>\c@secnumdepth \else \protect \numberline
  {\csname thesubsection\endcsname }\fi 隨機抽樣一致演算法(RANSAC)}
 (hyperref)             reference {subsection.1.3.2}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.6' on input line 149.
+Package hyperref Info: Anchor `page.6' on input line 164.
  [6]
-Package hyperref Info: Anchor `Item.5' on input line 152.
-Package hyperref Info: Anchor `Item.6' on input line 153.
-Package hyperref Info: Anchor `Item.7' on input line 154.
-Package hyperref Info: Anchor `Item.8' on input line 155.
-Package hyperref Info: Anchor `Item.9' on input line 156.
-Package hyperref Info: Anchor `Item.10' on input line 157.
-Package hyperref Info: Anchor `equation.1.3.9' on input line 166.
-Package hyperref Info: Anchor `equation.1.3.10' on input line 166.
-Package hyperref Info: Anchor `equation.1.3.11' on input line 166.
+Package hyperref Info: Anchor `Item.5' on input line 167.
+Package hyperref Info: Anchor `Item.6' on input line 168.
+Package hyperref Info: Anchor `Item.7' on input line 169.
+Package hyperref Info: Anchor `Item.8' on input line 170.
+Package hyperref Info: Anchor `Item.9' on input line 171.
+Package hyperref Info: Anchor `Item.10' on input line 172.
+Package hyperref Info: Anchor `equation.1.3.9' on input line 181.
+Package hyperref Info: Anchor `equation.1.3.10' on input line 181.
+Package hyperref Info: Anchor `equation.1.3.11' on input line 181.
 )
-Package hyperref Info: Anchor `page.7' on input line 97.
+Package hyperref Info: Anchor `page.7' on input line 96.
  [7]
+Package hyperref Info: Anchor `page.8' on input line 97.
+ [8]
 Package hyperref Info: Anchor `chapter.2' on input line 97.
 
 Chapter 2.
@@ -1605,7 +1607,7 @@ Package hyperref Info: bookmark on input line 11:
 (hyperref)             type {toc}.
 
 
-LaTeX Warning: Reference `fig:Entire System Process' on page 8 undefined on inp
+LaTeX Warning: Reference `fig:Entire System Process' on page 9 undefined on inp
 ut line 15.
 
 File: figures/Enire_System_Process.jpg Graphic file (type QTm)
@@ -1633,12 +1635,12 @@ Package hyperref Info: bookmark on input line 31:
 Package hyperref Info: Anchor `Item.11' on input line 37.
 Package hyperref Info: Anchor `Item.12' on input line 38.
 Package hyperref Info: Anchor `Item.13' on input line 39.
-Package hyperref Info: Anchor `page.8' on input line 40.
-[8
+Package hyperref Info: Anchor `page.9' on input line 40.
+[9
 
 ]
-Package hyperref Info: Anchor `page.9' on input line 40.
- [9]
+Package hyperref Info: Anchor `page.10' on input line 40.
+ [10]
 Package hyperref Info: Anchor `Item.14' on input line 40.
 Package hyperref Info: Anchor `Item.15' on input line 41.
 Package hyperref Info: Anchor `subsection.2.2.1' on input line 49.
@@ -1649,8 +1651,8 @@ Package hyperref Info: bookmark on input line 49:
 (hyperref)             reference {subsection.2.2.1}
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.10' on input line 67.
- [10]
+Package hyperref Info: Anchor `page.11' on input line 67.
+ [11]
 File: figures/3DPoint_Cloud_Map.jpg Graphic file (type QTm)
  <use  "figures/3DPoint_Cloud_Map.jpg" >
 Package hyperref Info: bookmark on input line 75:
@@ -1681,8 +1683,8 @@ ame }{\ignorespaces 將點雲給予界限範圍}}
 (hyperref)             toclevel {0}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `figure.2.3' on input line 94.
-Package hyperref Info: Anchor `page.11' on input line 103.
- [11]
+Package hyperref Info: Anchor `page.12' on input line 103.
+ [12]
 Package hyperref Info: Anchor `subfigure.2.4.1' on input line 110.
 File: figures/Global_Pose.jpg Graphic file (type QTm)
  <use  "figures/Global_Pose.jpg" >
@@ -1719,8 +1721,8 @@ Package hyperref Info: bookmark on input line 117:
 (hyperref)             reference {section.2.3}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.12' on input line 122.
- [12]
+Package hyperref Info: Anchor `page.13' on input line 122.
+ [13]
 Package hyperref Info: Anchor `Item.16' on input line 124.
 Package hyperref Info: Anchor `Item.17' on input line 125.
 Package hyperref Info: Anchor `Item.18' on input line 126.
@@ -1761,8 +1763,8 @@ Package hyperref Info: bookmark on input line 141:
 (hyperref)             reference {figure.2.5}
 (hyperref)             toclevel {1}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `page.13' on input line 149.
- [13]
+Package hyperref Info: Anchor `page.14' on input line 149.
+ [14]
 Package hyperref Info: Anchor `subsection.2.3.2' on input line 150.
 Package hyperref Info: bookmark on input line 150:
 (hyperref)             thecounter {2.3.2}
@@ -1799,9 +1801,9 @@ Package hyperref Info: bookmark on input line 164:
 (hyperref)             toclevel {1}
 (hyperref)             type {lof}.
 Package hyperref Info: Anchor `equation.2.3.1' on input line 177.
-Package hyperref Info: Anchor `page.14' on input line 183.
+Package hyperref Info: Anchor `page.15' on input line 183.
 
-[14]
+[15]
 Package hyperref Info: Reference (link) `subfigure.2.6.2' on input line 186.
 Package hyperref Info: Anchor `equation.2.3.2' on input line 190.
 Package hyperref Info: Anchor `equation.2.3.3' on input line 195.
@@ -1811,8 +1813,8 @@ Package hyperref Info: Reference (link) `subfigure.2.6.1' on input line 222.
 Package hyperref Info: Anchor `equation.2.3.6' on input line 225.
 Package hyperref Info: Anchor `equation.2.3.7' on input line 230.
 Package hyperref Info: Anchor `equation.2.3.8' on input line 235.
-Package hyperref Info: Anchor `page.15' on input line 235.
- [15]
+Package hyperref Info: Anchor `page.16' on input line 235.
+ [16]
 Package hyperref Info: Anchor `equation.2.3.9' on input line 240.
 
 Overfull \hbox (5.83168pt too wide) in paragraph at lines 242--243
@@ -1849,12 +1851,12 @@ ame }{\ignorespaces 根據物體距離鏡頭遠近來調整方位}}
 Package hyperref Info: Anchor `figure.2.7' on input line 270.
 Package hyperref Info: Reference (link) `subfigure.2.6.1' on input line 278.
 Package hyperref Info: Anchor `equation.2.3.13' on input line 288.
-Package hyperref Info: Anchor `page.16' on input line 288.
- [16]
+Package hyperref Info: Anchor `page.17' on input line 288.
+ [17]
 Package hyperref Info: Reference (link) `subfigure.2.6.1' on input line 290.
 Package hyperref Info: Anchor `equation.2.3.14' on input line 295.
-Package hyperref Info: Anchor `page.17' on input line 305.
- [17]
+Package hyperref Info: Anchor `page.18' on input line 305.
+ [18]
 Package hyperref Info: Anchor `subsection.2.3.4' on input line 307.
 Package hyperref Info: bookmark on input line 307:
 (hyperref)             thecounter {2.3.4}
@@ -1884,8 +1886,8 @@ Package hyperref Info: bookmark on input line 328:
 (hyperref)             reference {section.2.4}
 (hyperref)             toclevel {1}
 (hyperref)             type {toc}.
-Package hyperref Info: Anchor `page.18' on input line 335.
- [18]
+Package hyperref Info: Anchor `page.19' on input line 335.
+ [19]
 Package hyperref Info: Anchor `Item.20' on input line 338.
 Package hyperref Info: Anchor `Item.21' on input line 339.
 Package hyperref Info: Anchor `Item.22' on input line 340.
@@ -1939,10 +1941,10 @@ Package hyperref Info: bookmark on input line 366:
 (hyperref)             reference {figure.2.9}
 (hyperref)             toclevel {1}
 (hyperref)             type {lof}.
-Package hyperref Info: Anchor `page.19' on input line 370.
- [19]
 Package hyperref Info: Anchor `page.20' on input line 370.
  [20]
+Package hyperref Info: Anchor `page.21' on input line 370.
+ [21]
 Package hyperref Info: Anchor `subsection.2.4.3' on input line 371.
 Package hyperref Info: bookmark on input line 371:
 (hyperref)             thecounter {2.4.3}
@@ -1976,8 +1978,8 @@ ame }{\ignorespaces 相機與特徵點的夾角示意圖}}
 Package hyperref Info: Anchor `figure.2.10' on input line 386.
 Package hyperref Info: Reference (link) `figure.2.10' on input line 391.
 Package hyperref Info: Anchor `equation.2.4.15' on input line 399.
-Package hyperref Info: Anchor `page.21' on input line 402.
- [21]
+Package hyperref Info: Anchor `page.22' on input line 402.
+ [22]
 Package hyperref Info: Reference (link) `figure.2.10' on input line 402.
 Package hyperref Info: Anchor `equation.2.4.16' on input line 405.
 Package hyperref Info: Anchor `section*.14' on input line 407.
@@ -2022,9 +2024,9 @@ Package hyperref Info: bookmark on input line 416:
 (hyperref)             type {lof}.
 Package hyperref Info: Reference (link) `figure.2.11' on input line 419.
 Package hyperref Info: Anchor `equation.2.4.17' on input line 429.
-Package hyperref Info: Anchor `page.22' on input line 435.
+Package hyperref Info: Anchor `page.23' on input line 435.
 
-[22]
+[23]
 Package hyperref Info: Anchor `section*.15' on input line 435.
 Package hyperref Info: bookmark on input line 435:
 (hyperref)             thecounter {2.4.3.0}
@@ -2037,8 +2039,8 @@ Package hyperref Info: bookmark on input line 435:
 Package hyperref Info: Anchor `equation.2.4.18' on input line 445.
 Package hyperref Info: Anchor `equation.2.4.19' on input line 456.
 )
-Package hyperref Info: Anchor `page.23' on input line 101.
- [23]
+Package hyperref Info: Anchor `page.24' on input line 101.
+ [24]
 Package hyperref Info: Anchor `chapter.3' on input line 101.
 
 Chapter 3.
@@ -2076,8 +2078,8 @@ Package hyperref Info: bookmark on input line 22:
 (hyperref)             toclevel {2}
 (hyperref)             type {toc}.
 Package hyperref Info: Reference (link) `table.3.1' on input line 29.
-Package hyperref Info: Anchor `page.24' on input line 30.
- [24
+Package hyperref Info: Anchor `page.25' on input line 30.
+ [25
 
 ]
 (C:\Users\User\Dropbox\ntust_thesis\tables/ControlledEVParameters.tex
@@ -2126,8 +2128,8 @@ ame }{\ignorespaces 依照同心圓的覆蓋算出每個半徑內的每張圖�
 Package hyperref Info: Anchor `figure.3.1' on input line 56.
 Package hyperref Info: Anchor `figure.3.1' on input line 56.
 Package hyperref Info: Reference (link) `figure.3.2' on input line 61.
-Package hyperref Info: Anchor `page.25' on input line 66.
- [25]
+Package hyperref Info: Anchor `page.26' on input line 66.
+ [26]
 Package hyperref Info: Anchor `subfigure.3.2.1' on input line 69.
 File: figures/Controlled_EV1_DescriptorNum.eps Graphic file (type eps)
 
@@ -2195,8 +2197,8 @@ Package hyperref Info: bookmark on input line 85:
 (hyperref)             toclevel {3}
 (hyperref)             type {toc}.
 Package hyperref Info: Reference (link) `figure.3.3' on input line 87.
-Package hyperref Info: Anchor `page.26' on input line 96.
- [26]
+Package hyperref Info: Anchor `page.27' on input line 96.
+ [27]
 Package hyperref Info: Anchor `section*.18' on input line 98.
 Package hyperref Info: bookmark on input line 98:
 (hyperref)             thecounter {3.2.2.0}
@@ -2236,9 +2238,9 @@ Package hyperref Info: bookmark on input line 108:
 Package hyperref Info: Reference (link) `subfigure.3.4.1' on input line 112.
 Package hyperref Info: Reference (link) `subfigure.3.2.1' on input line 114.
 Package hyperref Info: Reference (link) `subfigure.3.3.1' on input line 115.
-Package hyperref Info: Anchor `page.27' on input line 120.
+Package hyperref Info: Anchor `page.28' on input line 120.
 
-[27]
+[28]
 Package hyperref Info: Anchor `section.3.3' on input line 123.
 Package hyperref Info: bookmark on input line 123:
 (hyperref)             thecounter {3.3}
@@ -2257,8 +2259,8 @@ Package hyperref Info: bookmark on input line 128:
 (hyperref)             type {toc}.
 Package hyperref Info: Reference (link) `subfigure.3.5.3' on input line 131.
 Package hyperref Info: Reference (link) `subfigure.3.5.4' on input line 131.
-Package hyperref Info: Anchor `page.28' on input line 135.
- [28] (C:\Users\User\Dropbox\ntust_thesis\tables/IndoorEVParameters.tex
+Package hyperref Info: Anchor `page.29' on input line 135.
+ [29] (C:\Users\User\Dropbox\ntust_thesis\tables/IndoorEVParameters.tex
 Package hyperref Info: bookmark on input line 3:
 (hyperref)             thecounter {3.2}
 (hyperref)             text {\protect \numberline {\csname the\@captype \endcsn
@@ -2326,10 +2328,10 @@ Package hyperref Info: bookmark on input line 154:
 (hyperref)             type {toc}.
 Package hyperref Info: Reference (link) `figure.3.6' on input line 157.
 Package hyperref Info: Reference (link) `subfigure.3.6.1' on input line 162.
-Package hyperref Info: Anchor `page.29' on input line 165.
- [29]
 Package hyperref Info: Anchor `page.30' on input line 165.
  [30]
+Package hyperref Info: Anchor `page.31' on input line 165.
+ [31]
 Package hyperref Info: Reference (link) `subfigure.3.6.2' on input line 166.
 Package hyperref Info: Anchor `subfigure.3.6.1' on input line 173.
 File: figures/Indoor_LivingRoom_Result.eps Graphic file (type eps)
@@ -2360,8 +2362,8 @@ Package hyperref Info: bookmark on input line 178:
 (hyperref)             type {lof}.
 )
 (C:\Users\User\Dropbox\ntust_thesis\backpages/ntust_backpages.tex
-Package hyperref Info: Anchor `page.31' on input line 6.
- [31]
+Package hyperref Info: Anchor `page.32' on input line 6.
+ [32]
 Package hyperref Info: Anchor `section*.19' on input line 7.
 Package hyperref Info: bookmark on input line 8:
 (hyperref)             thecounter {3}
@@ -2388,13 +2390,15 @@ Package hyperref Info: Anchor `Item.36' on input line 57.
 Package hyperref Info: Anchor `Item.37' on input line 62.
 Package hyperref Info: Anchor `Item.38' on input line 66.
 Package hyperref Info: Anchor `Item.39' on input line 71.
-Package hyperref Info: Anchor `page.32' on input line 76.
-[32
+Package hyperref Info: Anchor `page.33' on input line 75.
+[33
 
-]))
+]
+Package hyperref Info: Anchor `Item.40' on input line 76.
+))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package hyperref Info: Anchor `page.33' on input line 118.
- [33]
+Package hyperref Info: Anchor `page.34' on input line 118.
+ [34]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (C:\Users\User\Dropbox\ntust_thesis\ntust_thesis_xelatex.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 118.
@@ -2409,12 +2413,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 24695 strings out of 429035
- 471979 string characters out of 3167909
- 492169 words of memory out of 3000000
- 27603 multiletter control sequences out of 15000+200000
+ 24696 strings out of 429035
+ 471993 string characters out of 3167909
+ 492174 words of memory out of 3000000
+ 27604 multiletter control sequences out of 15000+200000
  11221 words of font info for 77 fonts, out of 3000000 for 9000
  912 hyphenation exceptions out of 8191
  46i,15n,46p,734b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ntust_thesis_xelatex.pdf (43 pages).
+Output written on ntust_thesis_xelatex.pdf (44 pages).
