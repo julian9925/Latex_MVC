@@ -1,4 +1,4 @@
-  %
+ %
 % this file is encoded in utf-8
 % v2.0 (Apr. 5, 2009)
 
@@ -17,6 +17,11 @@
 \usepackage[BoldFont,SlantFont]{xeCJK}       %讓中英文字體分開設置，並使用模擬粗體與斜體
 \usepackage{xCJKnumb}    %使章節可以中文計數 
 \usepackage{dcolumn,booktabs}
+\usepackage{algorithm} %//format of the algorithm
+\usepackage{algorithmic} %//format of the algorithm
+\usepackage{multirow} %//multirow for format of table
+\usepackage{amsmath}
+\usepackage{xcolor}
 
 %\setmainfont{Century}            %設定主要字型，也就是英文字型 
 \setCJKmainfont{DFKai-SB}     %設定中文字型 (windows:預設為標楷體)
@@ -30,7 +35,6 @@
 
 
 \input{settings/ntust_premable.tex}
-
 \begin{document}
 
 % 針對 latex + dvipdfmx 工作流程在 hyperref 套件的影響下，圖檔的
@@ -70,7 +74,7 @@
 % 決定
 % ntust_frontpages.tex 此檔只提供整體架構的定義，不需更動
 % 在撰寫各章草稿時，可以把此部份「關掉」，以節省無謂的編譯時間。
-\input{frontpages/ntust_frontpages.tex} 
+%\input{frontpages/ntust_frontpages.tex} 
 
 % 載入自訂巨集定義檔
 % 這裡定義的巨集的使用說明，可以參考 example_macro_demo.pdf
@@ -87,24 +91,25 @@
 %
 
 %\input{sections/abstract.tex}
-%®\chapter{Introduction}
-%\input{sections/introduction.tex}
+\chapter{前言}
+\label{Sec:Introduction}
+\input{sections/introduction.tex}
 
-\chapter{相關研究介紹}
-\label{Related}
+\chapter{文獻探討}
+\label{Sec:RelatedWork}
 \input{sections/related_work.tex}
 
-\chapter{虛擬環境建置與定位方法描述}
-\label{app}
+\chapter{虛擬影像定位方法}
+\label{Sec:Methodology}
 \input{sections/methodology.tex}
 
-\chapter{定位實驗方法比較分析}
-\label{exp}
+\chapter{定位實驗成果比較分析}
+\label{Sec:Experiment}
 \input{sections/experiment.tex}
 
-% \chapter{Conclusions and Future Work}
-% \label{sum}
-% \input{sections/conclusion.tex}
+\chapter{結論與未來展望}
+\label{Sec:FutureWork}
+\input{sections/conclusion.tex}
 
 % back pages 後頁。
 % 包括參考文獻、附錄、自傳 

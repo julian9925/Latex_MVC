@@ -6,38 +6,40 @@
 \contentsline {chapter}{內文目錄}{vi}{section*.7}
 \contentsline {chapter}{圖目錄}{viii}{section*.9}
 \contentsline {chapter}{表目錄}{ix}{section*.11}
-\contentsline {chapter}{\numberline {1}相關研究介紹}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}室內定位的相關研究}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}SLAM 在建置3D環境的應用}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}特徵點的比對與匹配}{3}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}SIFT 尺度不變特徵向量}{4}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}隨機抽樣一致演算法(RANSAC)}{7}{subsection.1.3.2}
-\contentsline {chapter}{\numberline {2}虛擬環境建置與定位方法描述}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}方法大綱}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}利用3D點雲重建當時定位環境}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}重建初步模擬環境}{11}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}將點雲環境限制範圍符合真實環境重建}{12}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}虛擬照相機設置及影像資料庫建置}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}均勻分布設置虛擬攝影機}{14}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}虛擬照相機成像原理}{15}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}利用計算深度來優化攝影機角度}{17}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}儲存虛擬相機影像建立資料庫}{19}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}虛擬影像定位}{20}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}導入虛擬相機坐標位置作參考}{20}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}尋找特徵點並找出最多的特徵點投票選出位置}{20}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}利用虛擬相機位置來定位}{22}{subsection.2.4.3}
-\contentsline {subsubsection}{找出特徵點對於鏡頭圖片的夾角}{22}{section*.13}
-\contentsline {subsubsection}{利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度}{23}{section*.14}
-\contentsline {subsubsection}{利用已知的長度求出待定位圖片的位置}{24}{section*.15}
-\contentsline {chapter}{\numberline {3}定位實驗方法比較分析}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}實驗目的}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}特徵點固定環境下定位結果分析}{25}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}特徵點固定環境下實驗方法}{25}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}分析不同因素影響特徵點固定環境下實驗結果}{26}{subsection.3.2.2}
-\contentsline {subsubsection}{特徵點數量分布對定位結果影響探討}{26}{section*.16}
-\contentsline {subsubsection}{間距定位誤差分布比較}{27}{section*.17}
-\contentsline {subsubsection}{定位精準度覆蓋率以及平均定位誤差改善情況}{28}{section*.18}
-\contentsline {section}{\numberline {3.3}一般室內環境定位實驗}{29}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}室內環境定位方法說明}{29}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}定位數據結果分析比較}{30}{subsection.3.3.2}
-\contentsline {chapter}{Bibliography}{33}{section*.19}
+\contentsline {chapter}{\numberline {1}前言}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}研究背景介紹}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}研究動機}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}研究目的}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}論文架構}{3}{section.1.4}
+\contentsline {chapter}{\numberline {2}文獻探討}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}平面影像定位類型分析}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}3D環境重建技術}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}RGB-D Mapping 3D環境建置}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Visual SLAM的問題描述與在建置3D環境的應用}{8}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}3D投影平面深度內插研究}{10}{section.2.3}
+\contentsline {chapter}{\numberline {3}研究方法}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}虛擬影像定位流程}{12}{section.3.1}
+\contentsline {section}{\numberline {3.2}深度資料採集與建立虛擬環境}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}RGB-D 資料採集}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}點雲座標系角度調整及制定界線範圍}{17}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}虛擬照相機設置及影像資料庫建置}{19}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}均勻分布設置虛擬攝影機}{19}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}虛擬照相機成像原理}{21}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}利用計算深度來優化攝影機角度}{24}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}儲存虛擬相機影像建立資料庫}{25}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}虛擬影像定位}{26}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}導入虛擬相機坐標位置作參考}{28}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}尋找特徵點並找出最多的特徵點投票選出位置}{28}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}利用虛擬相機位置來定位}{28}{subsection.3.4.3}
+\contentsline {subsubsection}{找出特徵點對於鏡頭圖片的夾角}{30}{section*.13}
+\contentsline {subsubsection}{利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度}{30}{section*.14}
+\contentsline {subsubsection}{利用已知的長度求出待定位圖片的位置}{31}{section*.15}
+\contentsline {chapter}{\numberline {4}定位實驗成果比較分析}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}控制環境下定位結果分析}{33}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}特徵點數量趨勢}{34}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}間距定位誤差趨勢}{36}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}定位精準度覆蓋率以及平均定位誤差分布情況}{39}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}一般室內環境定位實驗}{39}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}定位覆蓋率與定位平均誤差分析比較}{40}{subsection.4.2.1}
+\contentsline {chapter}{\numberline {5}結論與未來展望}{44}{chapter.5}
+\contentsline {chapter}{Bibliography}{46}{section*.16}

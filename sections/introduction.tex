@@ -1,68 +1,63 @@
-%\section{Introduction}
-%人臉重建會遇到的問題及方法種類
-3D face reconstruction from 2D images is a challenging problem in computer vision.
-%, because of inaccuracy, time-varying, time-consuming, unknown surface information. 
-Over the years, several 3D face reconstructing approaches from 2D images have been proposed. Methods used to acquire depth information of faces including stereo vision\cite{seitz2006comparison}, structure from motion \cite{tomasi1992shape}, 3D morphable model based methods \cite{romdhani2003efficient}, shape from shading techniques \cite{zhang1999shape}, and tensor \cite{vasilescu2002multilinear, kolda2009tensor}.
+\section{研究背景介紹}
+
+	機器人相關領域研究在近年來相關廣泛，有許多的研究應用在生活上面，像是定位、導航、視覺感測等，在定位的研究上像是現在的GPS定位，在只要
+有衛星訊號的環境上就可以運用定位系統，在陌生的環境下可以藉由定位了解到自身所在位置相關的資訊。定位資訊的輔助下，藉由路徑規劃，即可完成運送
+、傳遞的任務，像是車用導航，輔助駕駛到達目的地。室外定位除了利用GPS外，也有利用紅外線及雷達等系統，但GPS最為廣泛，因為佈及全世界的視野，不須
+其他儀器輔助。其他像是紅外線及雷達等的儀器，遍布沒有這麼廣泛，較無法運用在日常生活中，較常用在私人用途，像是飛機、軍艦等的導航系統。
+
+	室內定位的技術多用於訊號接收定位，需要設備上的支援，像是紅外線、聲納\cite{Bekkerman2006}、藍牙、Wi-Fi\cite{Chin-HengLim2007}
+以及RFID\cite{Zhou2009}等室內定位的技術，這些技術的共同缺點都是訊號容易受到環境的干擾，使得無法精確地定出定位位置，誤差範圍過大(5\~10m)，
+為了替代訊號在定位上的使用，之後室內定位的研究轉往在影像上的特徵當作定位來源。影像定位藉由影像上的特徵作為定位處理的依據，影像特徵的擷取分為兩
+大部分，一為區域導向(Region based)，一為特徵點導向(feature based)\cite{Zitová03}。區域導向代表在兩張相對圖片中，找出相對應畫素的關係性，
+像是以梯度向量(Gradient)強度，或是色彩像素上的強度作為特徵描述。另外一種特徵點導向是以lowe\cite{Lowe2004}所提出尺度不變特徵轉換(SIFT)為前
+提，所使用擷取特徵的方法。
+
+%影像特徵描述
+	SIFT特徵點須具備以下幾個條件：特徵點的識別度高，具有獨特性、容易匹配、對各種的破壞具有不變性。基於這上述三項理由，使得SIFT比一般區域導向的特徵
+更常用在定位演算法中。另外也有其他特徵點擷取的方法，像是Harris角點偵測法[3]，不過其最大的缺點就是本身並非尺度不變，因為本身尺度上的限制，使得Harris
+角點偵測法鮮少出現在影像定位文獻中。SIFT除了在特徵點擷取上效果優良外，在計算特徵點位置周圍區塊像素的影像梯度(gradient)後，求出方向性並與周圍區塊像
+素的方向統計過後濃縮成特徵點向量，使得SIFT比其他區域導向的特徵描述，在對抗破壞與干擾上有更好的效果。
+
+%影像定位的方法及應用
+	影像定位除了在特徵點的擷取方法的不同上，定位方式也有所差異，像是利用機率方式Monte Carlo Localization(MCL)解決定位的問題\cite{Thrun2001}，
+或者是傳統的三角定位(Triangulation)\cite{Cobzas2003}，都利用特徵描述的不同特性，完成定位。透過影像定位，除了讓機器人了解自己的位置外，也可以運用在
+建置環境地圖上，像是SLAM(Simultaneously Localization And Mapping)關於定位與建置地圖一系列的問題方向，都在影像定位與特徵點擷取的相關技術做研究，
+使得影像定位在不同的領域上有更多的應用發展。
+	
+%機器視覺與點雲上的應用
+	3D環境模型建置有許多種的方法，在傳統的方法像是利用雷射掃描深度，利用渲染(Rendering)的技術，透過材質(texture)拼貼(mapping)在立體維度中，達成
+立體視覺的效果。現在利用深度攝影機(Kinect)將深度記錄下來，與照片的像素作對應，使得每張照片的像素都有三維座標與其對應，這種三維座標的紀錄方式稱為點雲
+(Point Cloud)。現在許多研究透過點雲應用在立體視覺上面，在\cite{Rusu2011}中，將點雲與機器人作結合，將膽雲應用在建置環境地圖或是定位、導航等用途。
+這種3D環境建置的方法可以節省在Rendering所花費的計算時間，在者儀器的取得也比雷射或其他IR機器來的便利，更可將這些技術應用在日常生活上。
+	
+\section{研究動機}
+
+	室內定位訊號受到環境上的阻礙，在比較複雜的室內環境下，會因為訊號不穩定而導致定位精準度下降，又受限於設備上的限制，無法落實在日常生活上。
+我們想避免運用到需要訊號定位的設備，利用日常可隨身攜帶的相機當作我們定位的資訊，藉由影像特徵的幫助下完成室內定位。傳統的訊號定位，如：Wifi、RFID、等，
+都需要透過設備上存取訊號資料，但在一些特定區域可能環境不能夠放置設備，抑或是會受到其他訊號機器干擾，在室內環境下，我們把研究方向改為影像定位的方面做改進。
+
+	影像定位雖有比訊號定位較高的精準度，但是受限於拍照位置與角度上的限制，不能完整的涵蓋室內環境的資訊，在我們的研究想還原定位的3D環境，利用近年來常用的
+Kinect深度感測攝影機幫助我們建置3D環境，一來可以知道室內環境的全貌，其次也可以藉由環境資訊了解自身所在的位置，增進影像定位的利用與便利性。
+
+\section{研究目的}
+		
+	為使得影像定位能有更準確且更高覆蓋率的的定位，我們結合了3D環境的技術幫助我們達成目的，在重建的定位環境下設置虛擬相機取得照片，藉由均勻分布
+在定位環境下，取得比相機拍攝更好的影像來源，除了均勻的分布位置外，我們根據虛擬相機所在的位置作深度檢測，當距離障礙物過近的情況下，能夠自動的旋轉
+相機角度拍攝更好的虛擬影像。我們研究主對於室內影像定位要改善三個分針：
+\begin{enumerate}
+	  \item 均勻的相機分布取得充分的影像資料
+	  \item 增加定位環境內可定位的覆蓋範圍
+	  \item 改善整體定位的平均誤差
+\end{enumerate}
+	藉由改進這三個方針，使得影像資料能被更有效率的運用，改善因為隨機分布所導致影像資料的不完全，使得影像定位不會受到環境的阻隔而導致定位誤差過大，或是沒有相關資料
+導致無法定位的情形發生。
+
+\section{論文架構}
+
+	在本篇研究中，第二章針對現在的影像定位技術相關研究與SLAM問題做探討，藉由之前影像定位研究的方法提出改進的目標，也分析解決SLAM問題的方法怎麼應用在建置
+3D環境上，藉由之前的研究參考與改進，提出我們研究的方法	。第三章進入我們研究的核心，描述我們如何建置3D虛擬環境，並且說明虛擬照片取出的來源及過程，以及最後怎麼
+運用到三角定位上。第四章針對我們的研究與SIFT影像定位做比對，在針對固定放置物品的定位環境下，離物品由近而遠比較定位成果，說明在我們方法改善了那些目標，並針對
+一般室內環境之下，分別在客廳、廚房、與一般房間做室內定位比較，比較定位的精準度，以及定位在誤差下成功的覆蓋率。在最後一章，針對我們的貢獻以及未來能夠改進的目標
+做說明。
 
 
-% stereo vision 方法特性
-In methods using stereo vision, selecting proper corresponding points is crucial because inaccurate corresponding points greatly affect the accuracy of depth estimation.  Corresponding points can be used to measure \textit{disparity}, which is the difference between the corresponding points of left and right images. Disparity is then used to evaluate depth, which is the distance to the target object.
-%Okutomi														
-Okutomi \cite{okutomi1993multiple} proposed a method to match corresponding points by computing the sum of squared-difference (SSD) with different baselines by a lateral displacement of a camera.
-%Hansen
-Recently, Hansen \cite{hansen20103d} developed a new 3D face capture algorithm using Photometric Stereo (PS) device with visible light or near infrared light (NIR). In general, the NIR light sources offer better performance than the visible light.
-
-%structure from motion 方法特性
-In methods using structure from motion, the three-dimensional structure of an object is found by analyzing local motion signals over time. It can recover 3D structure from the projected 2D motion field of a moving object.
-%Torresani
-Torresani et al.\cite{torresani2008nonrigid} proposed a reconstruction method using a Probabilistic Principal Components Analysis (PPCA) shape model and an estimation algorithm that estimates 3D shape and motion for each time moment simultaneously. 
-%3D morphable model 
-In 3D morphable model (3DMM) based methods, by given a large database of 3D face models, any arbitrary face can be generated by morphing in the database.		
-%Romdhani
-Romdhani \cite{romdhani2003efficient} proposed a 3D alignment algorithm to recover the facial shape and texture parameters from the appearance features. However, the 3D face alignment requires manual initialization and the reconstructing speed was not yet suitable for real time face recognition systems. 					
-%Hu
-To speed up the fitting algorithm, Hu \cite{hu2004automatic} proposed a fully automatic linear algorithm to recover the shape information according to sparsely corresponded 2D facial feature points, but the texture geometry extracted from a single image could not cover the whole face.
-%Le 
-Le et al.\cite{le2010accurate} proposed an algorithm which reconstructs the 3D shape and texture of human faces from stereo images captured from calibrated cameras. Using PCA-based morphable model and iterative optimization process, their algorithm fits arbitrary views of faces to a dense 3D model from a sparse 3D point set.						
-%shape from shading
-Shape from shading (SFS) methods use shading information to reconstruct the three-dimensional object. It needs to solve unknown lighting source and albedo (reflection coefficient) from object surface.
-%Kemelmacher
-Kemelmacher \cite{kemelmacher20113d} proposed a novel method for recovering 3D faces from a single image and single 3D reference model of a different person’s face.
-
-%介紹tensor
-In recent years, several tensor-based methods are proposed for face recognition and reconstruction \cite{vasilescu2002multilinear, kolda2009tensor}. 
-%介紹Lei的tensor model及使用NIR image的優點
-Lei et al. \cite{lei2008face} recovered faces from a single image. \cite{lei2008face} uses a single near infrared (NIR) image as input and constructs a mapping from the NIR tensor space to 3D tensor space.
-
-%說明動機
-In the NIR imaging system environment, \cite{lei2008face} is able to obtain good performance. 
-However, because of the fact that cost constrain and the NIR imaging system is not easy to obtain, the grayscale images are substituted for NIR images. 
-When we use the grayscale images as input, different lighting sources and other factors due to cameras affect the computed result. 
-The grayscale image is an image the value of each pixel carries only intensity information. 
-When lighting sources changes strongly, grayscale images cause some noisy and redundant information, because of grayscale images are sensitive to environmental lighting variation. 
-It can cause negative effect when mapping between image and depth information.
-
-%XXX Although \cite{lei2008face} is able to obtain good performance in the NIR imaging system environment, when %intensity images are substituted for 
-%    NIR image, lighting sources and other factors due to cameras degrade the computed result. 
-%In uncontrolled environment, a person's intensity image may appear differently because of intensity image are %sensitive to environment lighting variation. 
-%Intensity image is an image the value of each pixel carries only grayscale information. 
-%When lighting sources changes strongly, intensity image cause some noise and redundant information. 
-%It can cause negative effect when mapping between image and depth information.  
-%/XXX
-
-%說明貢獻
-To overcome the problems caused by different lighting sources, 
-%The color information is much less sensitive to environment lighting variation than the grayscale information.
-%本篇論文的大綱 
-we propose the use of multiple factors in the tensor model to reduce the effect from uncontrolled environmental lights in this paper.
-Our method considers color channels in a single color image, which are less affected by different lighting sources. The faces scanned by an off-the-shelf 
-    depth camera such as Microsoft Kinect are used to construct the initial database. 
-During the training phase, two tensor models are constructed for the color image and depth information respectively. 
-Canonical correlation analysis (CCA) is used to establish the mapping between colors and depths. 
-To reconstruct a face from a color image, the color tensor is first constructed, then depths are estimated using the mapping computed by CCA. 
-
-The rest of this paper is organized as follows. 
-Section \ref{Related} briefly introduces related work. 
-Section \ref{app} outlines the proposed approach. 
-The experiment results are discussed in section \ref{exp}. 
-We conclude this paper in Section \ref{sum}.

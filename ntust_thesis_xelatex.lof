@@ -1,46 +1,50 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces glFrustrum 矩陣圖示說明}}{5}{figure.1.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {高斯差分與影像金字塔}}}{5}{figure.1.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {尺度極值偵測}}}{5}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces 特徵點向量方為與強度示意直方圖}}{6}{figure.1.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 3D點雲環境座內定位整體流程圖}}{10}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 初步建置好的點雲環境}}{12}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 將點雲給予界限範圍}}{13}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 調整點雲坐標軸角度方法 }}{13}{figure.2.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {使用攝影機的Global Pose求得$\qopname \relax o{tan}\theta $}}}{13}{figure.2.4}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {坐標軸角度差異}}}{13}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces 在點雲上設置虛擬照相機位置}}{14}{figure.2.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {格狀分布虛擬相機位置}}}{14}{figure.2.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {均勻分布虛擬相機位置}}}{14}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces glFrustrum 矩陣圖示說明}}{15}{figure.2.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {攝影機的攝影近裁面(near)與遠裁面(far)表示}}}{15}{figure.2.6}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {相似三角形表示法}}}{15}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces 根據物體距離鏡頭遠近來調整方位}}{18}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces 內差法補強前後的差異圖}}{19}{figure.2.8}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces 特徵點比較差異圖 }}{21}{figure.2.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {根據虛擬相片找出的特徵點}}}{21}{figure.2.9}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {根據實際相片找出的特徵點}}}{21}{figure.2.9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces 相機與特徵點的夾角示意圖}}{22}{figure.2.10}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces 定位點夾角與長度向量關係示意圖}}{23}{figure.2.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {角度$\alpha $對於夾角$\mathaccentV {vec}17E{z}$與$\mathaccentV {vec}17E{w}$示意圖}}}{23}{figure.2.11}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度}}}{23}{figure.2.11}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \cite {Henry2012}RGB-D環境建置流程示意圖}}{6}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \cite {Konolige2010}Graph-based SLAM系統，透過新的pose帶入不斷更新}}{9}{figure.2.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 依照同心圓的覆蓋算出每個半徑內的每張圖的特徵點平均數，左.控制環境 1 右.控制環境 2}}{27}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 特徵點數量趨勢圖}}{27}{figure.3.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {控制環境 1.特徵點平均數量比較}}}{27}{figure.3.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {控制環境 2.特徵點平均數量比較}}}{27}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 間距定位平均誤差趨勢圖}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {控制環境 1.間距定位平均誤差比較}}}{28}{figure.3.3}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {控制環境 2.間距定位平均誤差比較}}}{28}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 定位環境成果}}{29}{figure.3.4}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {定位成果 1}}}{29}{figure.3.4}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {定位成果 2}}}{29}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 室內定位環境與待定位照片分布位置}}{31}{figure.3.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {定位環境 1.客廳環境}}}{31}{figure.3.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {定位環境 2.廚房環境}}}{31}{figure.3.5}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {定位環境 1.客廳 待定位照片分布位置}}}{31}{figure.3.5}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {定位環境 2.廚房 待定位照片分布位置}}}{31}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 室內環境定位成果}}{32}{figure.3.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {定位環境 1.客廳環境}}}{32}{figure.3.6}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {定位環境 2.廚房環境}}}{32}{figure.3.6}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 3D點雲環境座內定位整體流程圖}}{13}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 室內環境重建方法流程}}{14}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 透過SPA演算法來幫助照片為製作最佳化，圖左為處理前，圖右為處理後}}{15}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 初步建置好的點雲環境}}{18}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 將點雲給予界限範圍}}{18}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 調整點雲坐標軸角度方法 }}{19}{figure.3.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {使用攝影機的Global Pose求得$\qopname \relax o{tan}\theta $}}}{19}{figure.3.6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {坐標軸角度差異}}}{19}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 影像資料庫建置流程}}{20}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 在點雲上設置虛擬照相機位置}}{21}{figure.3.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {格狀分布虛擬相機位置}}}{21}{figure.3.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {均勻分布虛擬相機位置}}}{21}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces glFrustrum 矩陣圖示說明}}{22}{figure.3.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {攝影機的攝影近裁面(near)與遠裁面(far)表示}}}{22}{figure.3.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {相似三角形表示法}}}{22}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 根據物體距離鏡頭遠近來調整方位}}{24}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 內差法補強前後的差異圖}}{26}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 虛擬影像定位整體流程圖}}{27}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces 特徵點比較差異圖 }}{29}{figure.3.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {根據虛擬相片找出的特徵點}}}{29}{figure.3.13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {根據實際相片找出的特徵點}}}{29}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces 相機與特徵點的夾角示意圖}}{30}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces 定位點夾角與長度向量關係示意圖}}{31}{figure.3.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {角度$\alpha $對於夾角$\mathaccentV {vec}17E{z}$與$\mathaccentV {vec}17E{w}$示意圖}}}{31}{figure.3.15}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {利用夾角帶入餘弦定理 (Cosine Law) 求出特徵點所距離鏡頭圖片位置的長度}}}{31}{figure.3.15}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 依照同心圓的覆蓋算出每個半徑內的每張圖的特徵點平均數，左.控制環境 1 右.控制環境 2}}{34}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 特徵點數量趨勢圖，根據距離增加看出特徵點分布的數量差異情形}}{35}{figure.4.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {控制環境 1.特徵點平均數量比較}}}{35}{figure.4.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {控制環境 2.特徵點平均數量比較}}}{35}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 間距定位平均誤差趨勢圖，以每一橫排的待定位圖片平均誤差做計算，看出距離增加對定位誤差是否有影響}}{37}{figure.4.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {控制環境 1.間距定位平均誤差比較}}}{37}{figure.4.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {控制環境 2.間距定位平均誤差比較}}}{37}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 控制環境下定位精準度覆蓋率以及平均定位誤差成果分析，上圖為誤差容忍範圍下，可定位成功的覆蓋率分布情形，下圖整體的定位平均誤差}}{38}{figure.4.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {定位精準度覆蓋率}}}{38}{figure.4.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {平均定位誤差}}}{38}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 室內定位環境與待定位照片分布位置}}{41}{figure.4.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {定位環境 1.客廳環境}}}{41}{figure.4.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {定位環境 2.廚房環境}}}{41}{figure.4.5}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {定位環境 1.客廳 待定位照片分布位置}}}{41}{figure.4.5}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {定位環境 2.廚房 待定位照片分布位置}}}{41}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 室內環境定位成果，上圖為誤差容忍範圍下定位成功覆蓋率，在容忍範圍下覆蓋率分布的變化，下圖為平均定位誤差，在整體環境下比較各方法定位誤差}}{42}{figure.4.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {誤差容忍範圍下定位成功覆蓋率}}}{42}{figure.4.6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {平均定位誤差}}}{42}{figure.4.6}
+\addvspace {10\p@ }

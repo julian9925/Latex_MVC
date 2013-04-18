@@ -21,62 +21,149 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{Harris198887}
-C.~Harris and J.~Pike, ``3d positional integration from image sequences,''
-  \emph{Image and Vision Computing}, vol.~6, no.~2, pp. 87 -- 90, 1988.
+\bibitem{Bekkerman2006}
+I.~Bekkerman and J.~Tabrikian, ``Target detection and localization using mimo
+  radars and sonars,'' \emph{Signal Processing, IEEE Transactions on}, vol.~54,
+  no.~10, pp. 3873 --3883, oct. 2006.
 
-\bibitem{174711}
-J.~Leonard and H.~Durrant-Whyte, ``Simultaneous map building and localization
-  for an autonomous mobile robot,'' pp. 1442 --1447 vol.3, nov 1991.
+\bibitem{Chin-HengLim2007}
+C.-H. Lim, Y.~Wan, B.-P. Ng, and C.-M. See, ``A real-time indoor wifi
+  localization system utilizing smart antennas,'' \emph{Consumer Electronics,
+  IEEE Transactions on}, vol.~53, no.~2, pp. 618 --622, may 2007.
 
-\bibitem{1087373}
-R.~Chatila and J.~Laumond, ``Position referencing and consistent world modeling
-  for mobile robots,'' \emph{Robotics and Automation. Proceedings. 1985 IEEE
-  International Conference on}, vol.~2, pp. 138 -- 145, mar 1985.
+\bibitem{Zhou2009}
+J.~Zhou and J.~Shi, ``Rfid localization algorithms and applications—a
+  review,'' \emph{Journal of Intelligent Manufacturing}, vol.~20, pp. 695--707,
+  2009.
 
-\bibitem{Smith1988}
-R.~Smith, M.~Self, and P.~Cheeseman, ``A stochastic map for uncertain spatial
-  relationships,'' \emph{Proceedings of the 4th international symposium on
-  Robotics Research}, pp. 467--474, 1988.
-
-\bibitem{Betge1996}
-S.~Betge-Brezetz, P.~Hebert, R.~Chatila, and M.~Devy, ``Uncertain map making in
-  natural environments,'' \emph{Robotics and Automation, 1996. Proceedings.,
-  1996 IEEE International Conference on}, vol.~2, pp. 1048 --1053, apr 1996.
-
-\bibitem{Davison2001}
-A.~Davison and N.~Kita, ``3d simultaneous localisation and map-building using
-  active vision for a robot moving on undulating terrain,'' vol.~1, pp. I--384
-  -- I--391, 2001.
-
-\bibitem{Durrant2003}
-H.~Durrant-Whyte, S.~Majumder, S.~Thrun, M.~Battista, and S.~Scheding, ``A
-  bayesian algorithm for simultaneous localisation and map building in springer
-  tracts in advanced robotics,'' vol.~6, pp. 49--60, 2003.
+\bibitem{Zitová03}
+B.~Zitová and J.~Flusser, ``Image registration methods: a survey,''
+  \emph{Image and Vision Computing}, vol.~21, pp. 977--1000, 2003.
 
 \bibitem{Lowe2004}
 D.~G. Lowe, ``{Distinctive Image Features from Scale-Invariant Keypoints},''
   \emph{International Journal of Computer Vision}, vol.~60, no.~2, pp. 91--110,
   Nov. 2004.
 
-\bibitem{Bay2006}
-H.~Bay, T.~Tuytelaars, and L.~Gool, ``Surf: Speeded up robust features,''
-  \emph{Computer Vision – ECCV 2006}, vol. 3951, pp. 404--417, 2006.
+\bibitem{Thrun2001}
+``Robust monte carlo localization for mobile robots,'' \emph{Artificial
+  Intelligence}, vol. 128, pp. 99 -- 141, 2001.
 
-\bibitem{Guo2009}
-G.~Yu and J.-M. Morel, ``A fully affine invariant image comparison method,''
-  \emph{Acoustics, Speech and Signal Processing, 2009. ICASSP 2009. IEEE
-  International Conference on}, pp. 1597 --1600, april 2009.
+\bibitem{Cobzas2003}
+D.~Cobzas, H.~Zhang, and M.~Jagersand, ``Image-based localization with
+  depth-enhanced image map,'' \emph{Robotics and Automation, 2003. Proceedings.
+  ICRA '03. IEEE International Conference on}, vol.~2, pp. 1570 -- 1575 vol.2,
+  sept. 2003.
 
-\bibitem{Fischler1981}
-M.~A. Fischler and R.~C. Bolles, ``Random sample consensus: a paradigm for
-  model fitting with applications to image analysis and automated
-  cartography,'' \emph{Commun. ACM}, vol.~24, pp. 381--395, jun 1981.
+\bibitem{Rusu2011}
+R.~Rusu and S.~Cousins, ``3d is here: Point cloud library (pcl),''
+  \emph{Robotics and Automation (ICRA), 2011 IEEE International Conference on},
+  pp. 1 --4, may 2011.
+
+\bibitem{Muthukrishnan05}
+K.~Muthukrishnan, M.~Lijding, and P.~Havinga, ``Towards smart surroundings:
+  Enabling techniques and technologies for localization,'' 2005.
+
+\bibitem{Andreasson2005}
+H.~Andreasson, A.~Treptow, and T.~Duckett, ``Localization for mobile robots
+  using panoramic vision, local features and particle filter,'' \emph{Robotics
+  and Automation, 2005. ICRA 2005. Proceedings of the 2005 IEEE International
+  Conference on}, pp. 3348 -- 3353, april 2005.
+
+\bibitem{LiuT2010}
+T.~Liu, M.~Carlberg, G.~Chen, J.~Chen, J.~Kua, and A.~Zakhor, ``Indoor
+  localization and visualization using a human-operated backpack system,''
+  \emph{Indoor Positioning and Indoor Navigation (IPIN), 2010 International
+  Conference on}, pp. 1 --10, sept. 2010.
+
+\bibitem{Bonin-Font2008}
+F.~Bonin-Font, A.~Ortiz, and G.~Oliver, ``Visual navigation for mobile robots:
+  A survey,'' \emph{Journal of Intelligent and Robotic Systems: Theory and
+  Applications}, vol.~53, no.~3, pp. 263--296, 2008.
+
+\bibitem{Morita2005}
+H.~Morita, M.~Hild, J.~Miura, and Y.~Shirai, ``View-based localization in
+  outdoor environments based on support vector learning,'' \emph{2005 IEEE/RSJ
+  International Conference on Intelligent Robots and Systems, IROS}, pp.
+  3083--3088, 2005.
+
+\bibitem{Wolf2005}
+J.~Wolf, W.~Burgard, and H.~Burkhardt, ``Robust vision-based localization by
+  combining an image-retrieval system with monte carlo localization,''
+  \emph{IEEE Transactions on Robotics}, vol.~21, no.~2, pp. 208--216, 2005.
+
+\bibitem{Henry2012}
+P.~Henry, M.~Krainin, E.~Herbst, X.~Ren, and D.~Fox, ``Rgb-d mapping: Using
+  kinect-style depth cameras for dense 3d modeling of indoor environments,''
+  \emph{International Journal of Robotics Research}, vol.~31, no.~5, pp.
+  647--663, 2012.
+
+\bibitem{Fuentes-Pacheco2012}
+J.~Fuentes-Pacheco, J.~Ruiz-Ascencio, and J.~Rendón-Mancha, ``Visual
+  simultaneous localization and mapping: a survey,'' \emph{Artificial
+  Intelligence Review}, pp. 1--27, 2012.
+
+\bibitem{Ho2007}
+K.~Ho and P.~Newman, ``Detecting loop closure with scene sequences,''
+  \emph{International Journal of Computer Vision}, vol.~74, no.~3, pp.
+  261--286, 2007.
+
+\bibitem{Eade2007}
+E.~Eade and T.~Drummond, ``Monocular slam as a graph of coalesced
+  observations,'' \emph{Proceedings of the IEEE International Conference on
+  Computer Vision}, 2007.
+
+\bibitem{Chekhlov2008}
+D.~Chekhlov, W.~Mayol-cuevas, and A.~Calway, ``Appearance based indexing for
+  relocalisation in real-time visual slam,'' \emph{In 19th Bristish Machine
+  Vision Conference}, pp. 363--372, 2008.
+
+\bibitem{Gil2010}
+A.~Gil, scar Reinoso, M.~Ballesta, and M.~Julie, ``Multi-robot visual slam
+  using a rao-blackwellized particle filter,'' \emph{Robotics and Autonomous
+  Systems}, vol.~58, no.~1, pp. 68 -- 80, 2010.
+
+\bibitem{Triggs2000}
+B.~Triggs, P.~McLauchlan, R.~Hartley, and A.~Fitzgibbon, ``Bundle adjustment
+  — a modern synthesis,'' \emph{Vision Algorithms: Theory and Practice}, vol.
+  1883, pp. 298--372, 2000.
+
+\bibitem{Konolige2010}
+K.~Konolige, G.~Grisetti, R.~Kümmerle, W.~Burgard, B.~Limketkai, and
+  R.~Vincent, ``Efficient sparse pose adjustment for 2d mapping,''
+  \emph{Intelligent Robots and Systems (IROS), 2010 IEEE/RSJ International
+  Conference on}, pp. 22 --29, oct. 2010.
+
+\bibitem{Zhang2010}
+S.~Zhang, ``Recent progresses on real-time 3d shape measurement using digital
+  fringe projection techniques,'' \emph{Optics and Lasers in Engineering},
+  vol.~48, no.~2, pp. 149 -- 158, 2010.
+
+\bibitem{Riecher2012}
+C.~Riechert, F.~Zilly, M.~Muller, and P.~Kauff, ``Advanced interpolation
+  filters for depth image based rendering,'' \emph{3DTV-Conference: The True
+  Vision - Capture, Transmission and Display of 3D Video (3DTV-CON), 2012}, pp.
+  1 --4, oct. 2012.
+
+\bibitem{Oh2001}
+B.~M. Oh, M.~Chen, J.~Dorsey, and F.~Durand, ``Image-based modeling and photo
+  editing,'' pp. 433--442, 2001.
+
+\bibitem{Dichangsheng2012}
+D.~Wang, J.~Liu, J.~Sun, W.~Liu, and Y.~Li, ``A novel key-frame extraction
+  method for semi-automatic 2d-to-3d video conversion,'' \emph{Broadband
+  Multimedia Systems and Broadcasting (BMSB), 2012 IEEE International Symposium
+  on}, pp. 1 --5, june 2012.
 
 \bibitem{Du2011}
 H.~Du, P.~Henry, X.~Ren, M.~Cheng, D.~B. Goldman, S.~M. Seitz, and D.~Fox,
   ``{Interactive 3D modeling of indoor environments with a consumer depth
   camera},'' \emph{Proceedings of the 13th international conference on
   Ubiquitous computing - UbiComp '11}, pp. 75--84, 2011.
+
+\bibitem{Fischler1981}
+M.~A. Fischler and R.~C. Bolles, ``Random sample consensus: a paradigm for
+  model fitting with applications to image analysis and automated
+  cartography,'' \emph{Commun. ACM}, vol.~24, pp. 381--395, jun 1981.
 
 \end{thebibliography}

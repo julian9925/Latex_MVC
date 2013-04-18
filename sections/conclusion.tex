@@ -1,13 +1,24 @@
 %\section{Conclusion and Future Work}\label{sum}
 
-We proposed a 3D face reconstruction approach with a
-color image in this paper. Compared with methods considering
-grayscale images, the proposed approach uses multiple image
-factors including the color information in establishing tensor
-models with respect to images and corresponding depths.
-A CCA-based mapping between image and depth tensors
-is built, which bonds crucial information that benefits the
-reconstruction. Once the mapping is constructed, 3D faces can
-be reconstructed from a single color image with the help of
-tensor models. The proposed approach also works when the
-input face image is captured under different lighting conditions and poses. Experiment results show that the proposed method produces better outcome due to the inclusion of color channels in the multi-factor consideration. 
+	在室內定位環境下，我們的方法改善了平均定位誤差以及提升了整體定位成功的覆蓋率，證明了利用虛擬照片能夠取得在一般照片不容易取得的環境資訊，
+計算照片中的的平均深度過濾出距離物體過近的虛擬相片，以及透過均勻分布的虛擬相機位置，取得一般相機所遺漏的位置與角度。根據固定景物的定位環境與
+一般室內環境做實驗，藉由實驗證實我們研究中方法的可行性，希望藉由我們研究提供機器視覺與定位研究一個新的發展方向。在研究方法我們提供了新的定位
+程序希望藉此改善傳統定位諮會發生的不足與缺陷，以下提供了我們以改進的目標：
+
+\begin{itemize}
+	\item 本篇研究提出了重建環境3D點雲的方法來增加特徵點採集的成效，與一般平面相片做特徵點的數量比對，在不同的區域上發現虛擬相片不會因為與
+		景物距離過遠導致特徵點數量減少的問題發生。
+	\item 經過相片深度篩選後調整相機角度改善了與待定位照片的相關性，增加與待定位照片更多的相似性提升了整體室內定位的精確度。
+	\item 虛擬相片的定位方法改善了定位的平均誤差也因此提升了整體定位成功的覆蓋率，增加室內環境內可定位的區域。
+\end{itemize}
+
+	建置點雲環境比一般利用雷射透過渲染的方式建置3D環境速度快上許多，但是比較貼圖細節與紋理還是沒辦法與渲染的成效相比，希望在之後研究能夠改善
+點雲環境的精細程度，使得虛擬照片不只在位置與角度做改善，在相片內容也能提供更多的特徵加以比對，提升整體定位的精準度。之後也可以把這個定位系統移
+植到手機上，藉由client端收集待定位照片，交給sever端記算訂位資訊，完成雲端平台像是Google定位的服務，增進影像定位的便利性與實用性。下面幾項為
+我們方法可望改善的幾項建議：
+
+\begin{itemize}
+	\item 希望透過更好的渲染效果增加虛擬相片的精細度，或者減少點雲建置所需要的時間。
+	\item 在之後能夠利用雲端或是分散式架構減少定握所需要的時間成本，增加定位的效率。
+	\item 能夠增加人性化的容錯機制，或是美化使用者介面的UI，使得這套虛擬影像定位能夠更為便利化使用。
+\end{itemize}
