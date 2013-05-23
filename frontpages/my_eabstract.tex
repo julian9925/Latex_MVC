@@ -1,1 +1,18 @@
-This paper develops a tensor-based 3D face reconstruction approach from a single color image. Instead of the grayscale image, we also consider additional color factors in constructing the tensor model. Canonical correlation analysis is applied to establish the relationship between the color image and the depth information in the face database. During the face reconstruction, given a single color face image, the depth estimation is computed from the CCA-based mapping between the tensor models. Experimental results show our approach is better suited under different lighting conditions and poses.
+%This paper develops a tensor-based 3D face reconstruction approach from a single color image. Instead of the grayscale image, we also consider additional color factors in constructing the tensor model. Canonical correlation analysis is applied to establish the relationship between the color image and the depth information in the face database. During the face reconstruction, given a single color face image, the depth estimation is computed from the CCA-based mapping between the tensor models. Experimental results show our approach is better suited under different lighting conditions and poses.
+
+This paper develops a approach for image triangulation from point cloud. This approach can
+be divides into three parts: reconstructing environment, virtual images database establishment and triangulation. During constructing virtual images database, we can acquire extra localization 
+information which traditional image localization lacks. When camera is far from scene or camera 
+is sheltered by objects, traditional SIFT localization may decrease the accuracy. Our approach 
+provides higher localization accuracy and coverage ratio by choosing better camera angles and 
+positions automatically. In experiment step, we take practical localization by traditional SIFT 
+localization and virtual images triangulation to compare result. 
+
+
+%At first, we use Kinect camera capture images of scenes and reconstruct environment. 
+%Secondly, we take images in point cloud to replace of camera pictures and establish image data 
+%base. Finally, we take image triangulation by matching SIFT descriptors from image database.
+%In order to improve triangulation accuracy and the successful triangulation coverage ratio, we 
+%take camera positions by grid distribution. We can acquire more localization data by 
+%construct virtual images database.  
+

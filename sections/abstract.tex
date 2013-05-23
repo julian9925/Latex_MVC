@@ -2,7 +2,19 @@
 
 \begin{abstract}
 
-This paper develops a tensor-based 3D face reconstruction approach from a single color image. Instead of the grayscale image, we also consider additional color channels in constructing the tensor model. Canonical correlation analysis is applied to establish the relationship between the color image and the depth information in the face database. During the face reconstruction, given a single color face image, the depth estimation is computed from the CCA-based mapping between the tensor models. Experimental results show our approach is better suited under different lighting conditions and poses.
+This paper discusses the approach for image triangulation from point cloud. 
+At first, we use Kinect camera capture images of scenes and reconstruct environment. 
+Secondly, we take images in point cloud to replace of camera pictures and establish image data 
+base. Finally, we take image triangulation by matching SIFT descriptors from image database.
+In order to improve triangulation accuracy and the successful triangulation coverage ratio, we 
+take camera positions by grid distribution. We can acquire more localization data by 
+construct virtual images database.  
+
+
+   
+
+
+
 
 %This paper discusses the approach for face shape reconstruction from a single color image. At first, using tensor analysis to construct two tensor models like IMAGE space and 3D depth space from face database. Then, using a statistical mapping like canonical correlation analysis (CCA) for predicting people parameter vectors between the people space of IMAGE and 3D tensor models. It can construct a relationship from image to 3D depth shape, and we can using this transformation to get the face shape. In the training phase, we increase multiple factors like color information in tensor space to reduce the effect from uncontrolled environmental lights. Then, using CCA-based method to learn the relationship between IMAGE and 3D space. In the reconstruction phase, just given a single color face image, the depth map is computed by using the CCA-based mapping with help of tensor models. Experimental result are presents this method under different lighting sources and poses. This work provide a practical solution for reliable and face shape recovery of 3D faces.
 

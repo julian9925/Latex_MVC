@@ -21,6 +21,12 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Konolige2010}
+K.~Konolige, G.~Grisetti, R.~Kümmerle, W.~Burgard, B.~Limketkai, and
+  R.~Vincent, ``Efficient sparse pose adjustment for 2d mapping,''
+  \emph{Intelligent Robots and Systems (IROS), 2010 IEEE/RSJ International
+  Conference on}, pp. 22 --29, oct. 2010.
+
 \bibitem{Bekkerman2006}
 I.~Bekkerman and J.~Tabrikian, ``Target detection and localization using mimo
   radars and sonars,'' \emph{Signal Processing, IEEE Transactions on}, vol.~54,
@@ -63,6 +69,12 @@ R.~Rusu and S.~Cousins, ``3d is here: Point cloud library (pcl),''
 \bibitem{Muthukrishnan05}
 K.~Muthukrishnan, M.~Lijding, and P.~Havinga, ``Towards smart surroundings:
   Enabling techniques and technologies for localization,'' 2005.
+
+\bibitem{Wang2005}
+J.~Wang, R.~Cipolla, and H.~Zha, ``Vision-based global localization using a
+  visual vocabulary,'' \emph{Robotics and Automation, 2005. ICRA 2005.
+  Proceedings of the 2005 IEEE International Conference on}, pp. 4230--4235,
+  2005.
 
 \bibitem{Andreasson2005}
 H.~Andreasson, A.~Treptow, and T.~Duckett, ``Localization for mobile robots
@@ -127,12 +139,6 @@ A.~Gil, scar Reinoso, M.~Ballesta, and M.~Julie, ``Multi-robot visual slam
 B.~Triggs, P.~McLauchlan, R.~Hartley, and A.~Fitzgibbon, ``Bundle adjustment
   — a modern synthesis,'' \emph{Vision Algorithms: Theory and Practice}, vol.
   1883, pp. 298--372, 2000.
-
-\bibitem{Konolige2010}
-K.~Konolige, G.~Grisetti, R.~Kümmerle, W.~Burgard, B.~Limketkai, and
-  R.~Vincent, ``Efficient sparse pose adjustment for 2d mapping,''
-  \emph{Intelligent Robots and Systems (IROS), 2010 IEEE/RSJ International
-  Conference on}, pp. 22 --29, oct. 2010.
 
 \bibitem{Zhang2010}
 S.~Zhang, ``Recent progresses on real-time 3d shape measurement using digital

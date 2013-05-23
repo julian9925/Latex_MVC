@@ -24,9 +24,9 @@
 \usepackage{xcolor}
 
 %\setmainfont{Century}            %設定主要字型，也就是英文字型 
-\setCJKmainfont{DFKai-SB}     %設定中文字型 (windows:預設為標楷體)
+%\setCJKmainfont{DFKai-SB}     %設定中文字型 (windows:預設為標楷體)
 %\setCJKmainfont{標楷體}
-%\setCJKmainfont{BiauKai}     %設定中文字型 (OS X:預設為儷黑)
+\setCJKmainfont{BiauKai}     %設定中文字型 (OS X:預設為儷黑)
  
 \XeTeXlinebreaklocale "zh"                %這兩行一定要加，中文才能自動換行 
 \XeTeXlinebreakskip = 0pt plus 1pt       %這兩行一定要加，中文才能自動換行
@@ -74,7 +74,7 @@
 % 決定
 % ntust_frontpages.tex 此檔只提供整體架構的定義，不需更動
 % 在撰寫各章草稿時，可以把此部份「關掉」，以節省無謂的編譯時間。
-%\input{frontpages/ntust_frontpages.tex} 
+\input{frontpages/ntust_frontpages.tex} 
 
 % 載入自訂巨集定義檔
 % 這裡定義的巨集的使用說明，可以參考 example_macro_demo.pdf
@@ -94,11 +94,11 @@
 \chapter{前言}
 \label{Sec:Introduction}
 \input{sections/introduction.tex}
-
+%
 \chapter{文獻探討}
 \label{Sec:RelatedWork}
 \input{sections/related_work.tex}
-
+%
 \chapter{虛擬影像定位方法}
 \label{Sec:Methodology}
 \input{sections/methodology.tex}
